@@ -1,0 +1,34 @@
+{
+  "called_by": [
+    "agency",
+    "cicm-saq-rubric",
+    "compound-learning",
+    "constraints",
+    "graph-reasoning",
+    "hierarchical-reasoning",
+    "lambda",
+    "non-linear",
+    "ontolog",
+    "skill-protocol",
+    "urf"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/reason.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "graph"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [],
+  "id": "reason",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 225,
+    "word_count": 567
+  },
+  "soft_refs": [
+    "graph"
+  ],
+  "version": "0.1.0"
+}

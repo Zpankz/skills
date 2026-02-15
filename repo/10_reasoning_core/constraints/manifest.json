@@ -1,0 +1,52 @@
+{
+  "id": "constraints",
+  "name": "constraints",
+  "category": "skill",
+  "triggers": [],
+  "capabilities": [
+    "Action",
+    "Agent",
+    "Constraint",
+    "ConstraintType",
+    "ConstraintValidator",
+    "Context",
+    "DeonticModality",
+    "HohfeldianPosition",
+    "Rigidity",
+    "ValidationResult",
+    "__init__",
+    "_check_correlative_balance",
+    "_check_deontic_consistency",
+    "_check_krog_compliance",
+    "_check_rigidity_consistency",
+    "_check_type_alignment",
+    "_index_constraints",
+    "_scopes_overlap",
+    "add_failed",
+    "add_passed",
+    "add_warning",
+    "constraint_type_for_position",
+    "deontic_entails",
+    "get_correlative",
+    "get_opposite",
+    "to_lambda",
+    "validate",
+    "validate_all"
+  ],
+  "hard_deps": [
+    "agency",
+    "graph",
+    "ontolog",
+    "reason"
+  ],
+  "soft_refs": [],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 596,
+    "hard_degree": 4,
+    "soft_degree": 0,
+    "cluster": "10_reasoning_core"
+  }
+}

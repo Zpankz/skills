@@ -1,0 +1,29 @@
+{
+  "called_by": [],
+  "canonical_path": "repo/30_tools_and_aux/process-goals-prompting.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "constraints",
+    "critique",
+    "dspy",
+    "think"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "constraints",
+    "critique",
+    "dspy"
+  ],
+  "id": "process-goals-prompting",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 237,
+    "word_count": 558
+  },
+  "soft_refs": [
+    "think"
+  ],
+  "version": "0.1.0"
+}

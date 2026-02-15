@@ -1,0 +1,49 @@
+{
+  "called_by": [],
+  "canonical_path": "repo/10_reasoning_core/graph-reasoning.skill",
+  "category": "10_reasoning_core",
+  "depends_on": [
+    "abduct",
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "non-linear",
+    "ontolog",
+    "reason",
+    "skill-composer",
+    "think"
+  ],
+  "deprecated_aliases": [
+    "graph-reasoning (1)"
+  ],
+  "entry_points": [
+    "graph-reasoning/src/graph_reasoning/cli.py",
+    "graph-reasoning/src/graph_reasoning/constrained_decoding.py",
+    "graph-reasoning/src/graph_reasoning/trie.py",
+    "graph-reasoning/src/graph_reasoning/utils/graph_utils.py",
+    "graph-reasoning/tests/test_core.py"
+  ],
+  "hard_deps": [
+    "abduct",
+    "skill-composer"
+  ],
+  "id": "graph-reasoning",
+  "outputs": [],
+  "quality": {
+    "script_count": 5,
+    "tokens": 138,
+    "word_count": 458
+  },
+  "soft_refs": [
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "non-linear",
+    "ontolog",
+    "reason",
+    "think"
+  ],
+  "version": "0.1.0"
+}

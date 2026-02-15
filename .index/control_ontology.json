@@ -1,0 +1,3017 @@
+{
+  "clusters": {
+    "00_meta": {
+      "canonical_paths": [
+        "repo/00_meta/meta.skill",
+        "repo/00_meta/skill-composer.skill",
+        "repo/00_meta/skill-optimiser.skill",
+        "repo/00_meta/skill-orchestrator.skill",
+        "repo/00_meta/skill-protocol.skill",
+        "repo/00_meta/skill-updater.skill",
+        "repo/00_meta/system-skill.skill"
+      ],
+      "members": [
+        "meta",
+        "skill-composer",
+        "skill-optimiser",
+        "skill-orchestrator",
+        "skill-protocol",
+        "skill-updater",
+        "system-skill"
+      ],
+      "size": 7
+    },
+    "10_reasoning_core": {
+      "canonical_paths": [
+        "repo/10_reasoning_core/constraints.skill",
+        "repo/10_reasoning_core/graph.skill",
+        "repo/10_reasoning_core/graph-reasoning.skill",
+        "repo/10_reasoning_core/hierarchical-reasoning.skill",
+        "repo/10_reasoning_core/ontolog.skill",
+        "repo/10_reasoning_core/unifying-graph-analytics.skill"
+      ],
+      "members": [
+        "constraints",
+        "graph",
+        "graph-reasoning",
+        "hierarchical-reasoning",
+        "ontolog",
+        "unifying-graph-analytics"
+      ],
+      "size": 6
+    },
+    "20_saq_medical": {
+      "canonical_paths": [
+        "repo/20_saq_medical/cicm-saq-rubric.skill",
+        "repo/20_saq_medical/pex.skill",
+        "repo/20_saq_medical/saq.skill",
+        "repo/20_saq_medical/saq-rubric.skill",
+        "repo/20_saq_medical/saq-rubric-metaschema.skill",
+        "repo/20_saq_medical/saq-schema.skill",
+        "repo/20_saq_medical/saq-template-2.skill",
+        "repo/20_saq_medical/telos.skill"
+      ],
+      "members": [
+        "cicm-saq-rubric",
+        "pex",
+        "saq",
+        "saq-rubric",
+        "saq-rubric-metaschema",
+        "saq-schema",
+        "saq-template-2",
+        "telos"
+      ],
+      "size": 8
+    },
+    "30_tools_and_aux": {
+      "canonical_paths": [
+        "repo/30_tools_and_aux/abduct.skill",
+        "repo/30_tools_and_aux/agency.skill",
+        "repo/30_tools_and_aux/compound-learning.skill",
+        "repo/30_tools_and_aux/critique.skill",
+        "repo/30_tools_and_aux/dspy.skill",
+        "repo/30_tools_and_aux/eloquence.skill",
+        "repo/30_tools_and_aux/lambda.skill",
+        "repo/30_tools_and_aux/learn.skill",
+        "repo/30_tools_and_aux/non-linear.skill",
+        "repo/30_tools_and_aux/obsidian.skill",
+        "repo/30_tools_and_aux/process-goals-prompting.skill",
+        "repo/30_tools_and_aux/reason.skill",
+        "repo/30_tools_and_aux/rpp.skill",
+        "repo/30_tools_and_aux/think.skill",
+        "repo/30_tools_and_aux/urf.skill"
+      ],
+      "members": [
+        "abduct",
+        "agency",
+        "compound-learning",
+        "critique",
+        "dspy",
+        "eloquence",
+        "lambda",
+        "learn",
+        "non-linear",
+        "obsidian",
+        "process-goals-prompting",
+        "reason",
+        "rpp",
+        "think",
+        "urf"
+      ],
+      "size": 15
+    }
+  },
+  "control_graph": {
+    "atomic_count": 17,
+    "atomic_nodes": [
+      "cicm-saq-rubric",
+      "compound-learning",
+      "eloquence",
+      "graph-reasoning",
+      "meta",
+      "pex",
+      "process-goals-prompting",
+      "saq-rubric",
+      "saq-rubric-metaschema",
+      "saq-schema",
+      "saq-template-2",
+      "skill-optimiser",
+      "skill-updater",
+      "system-skill",
+      "telos",
+      "unifying-graph-analytics",
+      "urf"
+    ],
+    "max_depth": 8,
+    "node_count": 36,
+    "relation_count": 213,
+    "relation_kind_counts": {
+      "compat_alias": 2,
+      "demotion": 72,
+      "runtime_hard": 59,
+      "runtime_soft": 80
+    }
+  },
+  "generated_at": "2026-02-14T17:31:11.391483Z",
+  "nodes": [
+    {
+      "archive": "repo/30_tools_and_aux/abduct.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.309375,
+      "control_state": "relay",
+      "id": "abduct",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 3,
+        "hard_out_degree": 3,
+        "soft_in_degree": 2,
+        "soft_out_degree": 0,
+        "word_count": 586
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/30_tools_and_aux/agency.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.268177,
+      "control_state": "relay",
+      "id": "agency",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 2,
+        "hard_out_degree": 2,
+        "soft_in_degree": 1,
+        "soft_out_degree": 1,
+        "word_count": 604
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/20_saq_medical/cicm-saq-rubric.skill",
+      "cluster": "20_saq_medical",
+      "cluster_ordinal": 20,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "cicm-saq-rubric",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 3,
+        "soft_in_degree": 0,
+        "soft_out_degree": 2,
+        "word_count": 444
+      },
+      "scc_id": 4
+    },
+    {
+      "archive": "repo/30_tools_and_aux/compound-learning.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "compound-learning",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 3,
+        "soft_in_degree": 0,
+        "soft_out_degree": 5,
+        "word_count": 708
+      },
+      "scc_id": 7
+    },
+    {
+      "archive": "repo/10_reasoning_core/constraints.skill",
+      "cluster": "10_reasoning_core",
+      "cluster_ordinal": 10,
+      "control_score": 0.541239,
+      "control_state": "relay",
+      "id": "constraints",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 7,
+        "hard_out_degree": 2,
+        "soft_in_degree": 7,
+        "soft_out_degree": 2,
+        "word_count": 596
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/30_tools_and_aux/critique.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.455301,
+      "control_state": "relay",
+      "id": "critique",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 4,
+        "hard_out_degree": 2,
+        "soft_in_degree": 5,
+        "soft_out_degree": 3,
+        "word_count": 658
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/30_tools_and_aux/dspy.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.1925,
+      "control_state": "relay",
+      "id": "dspy",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 1,
+        "hard_out_degree": 1,
+        "soft_in_degree": 1,
+        "soft_out_degree": 0,
+        "word_count": 590
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/30_tools_and_aux/eloquence.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "eloquence",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 2,
+        "soft_in_degree": 0,
+        "soft_out_degree": 1,
+        "word_count": 681
+      },
+      "scc_id": 8
+    },
+    {
+      "archive": "repo/10_reasoning_core/graph.skill",
+      "cluster": "10_reasoning_core",
+      "cluster_ordinal": 10,
+      "control_score": 0.824811,
+      "control_state": "relay",
+      "id": "graph",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 4,
+        "hard_out_degree": 1,
+        "soft_in_degree": 14,
+        "soft_out_degree": 0,
+        "word_count": 674
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/10_reasoning_core/graph-reasoning.skill",
+      "cluster": "10_reasoning_core",
+      "cluster_ordinal": 10,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "graph-reasoning",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 2,
+        "soft_in_degree": 0,
+        "soft_out_degree": 8,
+        "word_count": 458
+      },
+      "scc_id": 10
+    },
+    {
+      "archive": "repo/10_reasoning_core/hierarchical-reasoning.skill",
+      "cluster": "10_reasoning_core",
+      "cluster_ordinal": 10,
+      "control_score": 1.125449,
+      "control_state": "relay",
+      "id": "hierarchical-reasoning",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 3,
+        "hard_out_degree": 1,
+        "soft_in_degree": 10,
+        "soft_out_degree": 1,
+        "word_count": 530
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/30_tools_and_aux/lambda.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.325844,
+      "control_state": "relay",
+      "id": "lambda",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 3,
+        "hard_out_degree": 3,
+        "soft_in_degree": 2,
+        "soft_out_degree": 5,
+        "word_count": 626
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/30_tools_and_aux/learn.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.1925,
+      "control_state": "relay",
+      "id": "learn",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 1,
+        "hard_out_degree": 1,
+        "soft_in_degree": 1,
+        "soft_out_degree": 0,
+        "word_count": 288
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/00_meta/meta.skill",
+      "cluster": "00_meta",
+      "cluster_ordinal": 0,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "meta",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 2,
+        "soft_in_degree": 0,
+        "soft_out_degree": 2,
+        "word_count": 214
+      },
+      "scc_id": 12
+    },
+    {
+      "archive": "repo/30_tools_and_aux/non-linear.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.431159,
+      "control_state": "relay",
+      "id": "non-linear",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 2,
+        "hard_out_degree": 2,
+        "soft_in_degree": 4,
+        "soft_out_degree": 1,
+        "word_count": 599
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/30_tools_and_aux/obsidian.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.237656,
+      "control_state": "sink",
+      "id": "obsidian",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 1,
+        "hard_out_degree": 0,
+        "soft_in_degree": 0,
+        "soft_out_degree": 1,
+        "word_count": 533
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/10_reasoning_core/ontolog.skill",
+      "cluster": "10_reasoning_core",
+      "cluster_ordinal": 10,
+      "control_score": 0.443777,
+      "control_state": "relay",
+      "id": "ontolog",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 2,
+        "hard_out_degree": 1,
+        "soft_in_degree": 2,
+        "soft_out_degree": 6,
+        "word_count": 494
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/20_saq_medical/pex.skill",
+      "cluster": "20_saq_medical",
+      "cluster_ordinal": 20,
+      "control_score": 0.377375,
+      "control_state": "relay",
+      "id": "pex",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 2,
+        "hard_out_degree": 2,
+        "soft_in_degree": 0,
+        "soft_out_degree": 0,
+        "word_count": 605
+      },
+      "scc_id": 1
+    },
+    {
+      "archive": "repo/30_tools_and_aux/process-goals-prompting.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "process-goals-prompting",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 3,
+        "soft_in_degree": 0,
+        "soft_out_degree": 1,
+        "word_count": 558
+      },
+      "scc_id": 13
+    },
+    {
+      "archive": "repo/30_tools_and_aux/reason.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 1.759407,
+      "control_state": "sink",
+      "id": "reason",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 4,
+        "hard_out_degree": 0,
+        "soft_in_degree": 7,
+        "soft_out_degree": 1,
+        "word_count": 567
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/30_tools_and_aux/rpp.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.306475,
+      "control_state": "sink",
+      "id": "rpp",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 2,
+        "hard_out_degree": 0,
+        "soft_in_degree": 0,
+        "soft_out_degree": 3,
+        "word_count": 577
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/20_saq_medical/saq.skill",
+      "cluster": "20_saq_medical",
+      "cluster_ordinal": 20,
+      "control_score": 0.675769,
+      "control_state": "sink",
+      "id": "saq",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 5,
+        "hard_out_degree": 0,
+        "soft_in_degree": 3,
+        "soft_out_degree": 1,
+        "word_count": 727
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/20_saq_medical/saq-rubric.skill",
+      "cluster": "20_saq_medical",
+      "cluster_ordinal": 20,
+      "control_score": 0.1925,
+      "control_state": "relay",
+      "id": "saq-rubric",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 1,
+        "hard_out_degree": 1,
+        "soft_in_degree": 2,
+        "soft_out_degree": 3,
+        "word_count": 571
+      },
+      "scc_id": 2
+    },
+    {
+      "archive": "repo/20_saq_medical/saq-rubric-metaschema.skill",
+      "cluster": "20_saq_medical",
+      "cluster_ordinal": 20,
+      "control_score": 0.1925,
+      "control_state": "relay",
+      "id": "saq-rubric-metaschema",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 1,
+        "hard_out_degree": 2,
+        "soft_in_degree": 1,
+        "soft_out_degree": 2,
+        "word_count": 648
+      },
+      "scc_id": 3
+    },
+    {
+      "archive": "repo/20_saq_medical/saq-schema.skill",
+      "cluster": "20_saq_medical",
+      "cluster_ordinal": 20,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "saq-schema",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 1,
+        "soft_in_degree": 0,
+        "soft_out_degree": 0,
+        "word_count": 746
+      },
+      "scc_id": 14
+    },
+    {
+      "archive": "repo/20_saq_medical/saq-template-2.skill",
+      "cluster": "20_saq_medical",
+      "cluster_ordinal": 20,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "saq-template-2",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 2,
+        "soft_in_degree": 1,
+        "soft_out_degree": 2,
+        "word_count": 482
+      },
+      "scc_id": 15
+    },
+    {
+      "archive": "repo/00_meta/skill-composer.skill",
+      "cluster": "00_meta",
+      "cluster_ordinal": 0,
+      "control_score": 0.21375,
+      "control_state": "relay",
+      "id": "skill-composer",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 1,
+        "hard_out_degree": 2,
+        "soft_in_degree": 2,
+        "soft_out_degree": 2,
+        "word_count": 649
+      },
+      "scc_id": 9
+    },
+    {
+      "archive": "repo/00_meta/skill-optimiser.skill",
+      "cluster": "00_meta",
+      "cluster_ordinal": 0,
+      "control_score": 0.317176,
+      "control_state": "sink",
+      "id": "skill-optimiser",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 1,
+        "hard_out_degree": 0,
+        "soft_in_degree": 3,
+        "soft_out_degree": 0,
+        "word_count": 492
+      },
+      "scc_id": 5
+    },
+    {
+      "archive": "repo/00_meta/skill-orchestrator.skill",
+      "cluster": "00_meta",
+      "cluster_ordinal": 0,
+      "control_score": 0.304594,
+      "control_state": "relay",
+      "id": "skill-orchestrator",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 2,
+        "hard_out_degree": 3,
+        "soft_in_degree": 1,
+        "soft_out_degree": 7,
+        "word_count": 512
+      },
+      "scc_id": 9
+    },
+    {
+      "archive": "repo/00_meta/skill-protocol.skill",
+      "cluster": "00_meta",
+      "cluster_ordinal": 0,
+      "control_score": 0.236302,
+      "control_state": "relay",
+      "id": "skill-protocol",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 1,
+        "hard_out_degree": 1,
+        "soft_in_degree": 1,
+        "soft_out_degree": 9,
+        "word_count": 530
+      },
+      "scc_id": 9
+    },
+    {
+      "archive": "repo/00_meta/skill-updater.skill",
+      "cluster": "00_meta",
+      "cluster_ordinal": 0,
+      "control_score": 0.393356,
+      "control_state": "relay",
+      "id": "skill-updater",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 2,
+        "hard_out_degree": 2,
+        "soft_in_degree": 2,
+        "soft_out_degree": 1,
+        "word_count": 591
+      },
+      "scc_id": 6
+    },
+    {
+      "archive": "repo/00_meta/system-skill.skill",
+      "cluster": "00_meta",
+      "cluster_ordinal": 0,
+      "control_score": 0.21375,
+      "control_state": "sink",
+      "id": "system-skill",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 1,
+        "hard_out_degree": 0,
+        "soft_in_degree": 0,
+        "soft_out_degree": 0,
+        "word_count": 580
+      },
+      "scc_id": 11
+    },
+    {
+      "archive": "repo/20_saq_medical/telos.skill",
+      "cluster": "20_saq_medical",
+      "cluster_ordinal": 20,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "telos",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 2,
+        "soft_in_degree": 0,
+        "soft_out_degree": 1,
+        "word_count": 619
+      },
+      "scc_id": 16
+    },
+    {
+      "archive": "repo/30_tools_and_aux/think.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.58919,
+      "control_state": "sink",
+      "id": "think",
+      "is_atomic": false,
+      "quality": {
+        "hard_in_degree": 3,
+        "hard_out_degree": 0,
+        "soft_in_degree": 7,
+        "soft_out_degree": 1,
+        "word_count": 300
+      },
+      "scc_id": 0
+    },
+    {
+      "archive": "repo/10_reasoning_core/unifying-graph-analytics.skill",
+      "cluster": "10_reasoning_core",
+      "cluster_ordinal": 10,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "unifying-graph-analytics",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 3,
+        "soft_in_degree": 0,
+        "soft_out_degree": 1,
+        "word_count": 523
+      },
+      "scc_id": 17
+    },
+    {
+      "archive": "repo/30_tools_and_aux/urf.skill",
+      "cluster": "30_tools_and_aux",
+      "cluster_ordinal": 30,
+      "control_score": 0.15,
+      "control_state": "source",
+      "id": "urf",
+      "is_atomic": true,
+      "quality": {
+        "hard_in_degree": 0,
+        "hard_out_degree": 4,
+        "soft_in_degree": 1,
+        "soft_out_degree": 7,
+        "word_count": 655
+      },
+      "scc_id": 18
+    }
+  ],
+  "relations": [
+    {
+      "control_plane": true,
+      "id": "R001",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.309375,
+        "target_control_score": 0.824811
+      },
+      "policy": "required",
+      "source": "abduct",
+      "target": "graph",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R002",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.309375,
+        "target_control_score": 0.431159
+      },
+      "policy": "required",
+      "source": "abduct",
+      "target": "non-linear",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R003",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.309375,
+        "target_control_score": 0.237656
+      },
+      "policy": "required",
+      "source": "abduct",
+      "target": "obsidian",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R004",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.268177,
+        "target_control_score": 1.125449
+      },
+      "policy": "required",
+      "source": "agency",
+      "target": "hierarchical-reasoning",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R005",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.268177,
+        "target_control_score": 0.306475
+      },
+      "policy": "required",
+      "source": "agency",
+      "target": "rpp",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R006",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.325844
+      },
+      "policy": "required",
+      "source": "cicm-saq-rubric",
+      "target": "lambda",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R007",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.1925
+      },
+      "policy": "required",
+      "source": "cicm-saq-rubric",
+      "target": "saq-rubric",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R008",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.1925
+      },
+      "policy": "required",
+      "source": "cicm-saq-rubric",
+      "target": "saq-rubric-metaschema",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R009",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.541239
+      },
+      "policy": "required",
+      "source": "compound-learning",
+      "target": "constraints",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R010",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.1925
+      },
+      "policy": "required",
+      "source": "compound-learning",
+      "target": "learn",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R011",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.393356
+      },
+      "policy": "required",
+      "source": "compound-learning",
+      "target": "skill-updater",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R012",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.541239,
+        "target_control_score": 0.824811
+      },
+      "policy": "required",
+      "source": "constraints",
+      "target": "graph",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R013",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.541239,
+        "target_control_score": 0.443777
+      },
+      "policy": "required",
+      "source": "constraints",
+      "target": "ontolog",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R014",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.455301,
+        "target_control_score": 0.824811
+      },
+      "policy": "required",
+      "source": "critique",
+      "target": "graph",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R015",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.455301,
+        "target_control_score": 0.431159
+      },
+      "policy": "required",
+      "source": "critique",
+      "target": "non-linear",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R016",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.1925,
+        "target_control_score": 0.824811
+      },
+      "policy": "required",
+      "source": "dspy",
+      "target": "graph",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R017",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.309375
+      },
+      "policy": "required",
+      "source": "eloquence",
+      "target": "abduct",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R018",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.443777
+      },
+      "policy": "required",
+      "source": "eloquence",
+      "target": "ontolog",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R019",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.824811,
+        "target_control_score": 1.125449
+      },
+      "policy": "required",
+      "source": "graph",
+      "target": "hierarchical-reasoning",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R020",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.309375
+      },
+      "policy": "required",
+      "source": "graph-reasoning",
+      "target": "abduct",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R021",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.21375
+      },
+      "policy": "required",
+      "source": "graph-reasoning",
+      "target": "skill-composer",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R022",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 1.125449,
+        "target_control_score": 1.759407
+      },
+      "policy": "required",
+      "source": "hierarchical-reasoning",
+      "target": "reason",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R023",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.325844,
+        "target_control_score": 1.759407
+      },
+      "policy": "required",
+      "source": "lambda",
+      "target": "reason",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R024",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.325844,
+        "target_control_score": 0.675769
+      },
+      "policy": "required",
+      "source": "lambda",
+      "target": "saq",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R025",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.325844,
+        "target_control_score": 0.58919
+      },
+      "policy": "required",
+      "source": "lambda",
+      "target": "think",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R026",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.1925,
+        "target_control_score": 0.58919
+      },
+      "policy": "required",
+      "source": "learn",
+      "target": "think",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R027",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.304594
+      },
+      "policy": "required",
+      "source": "meta",
+      "target": "skill-orchestrator",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R028",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.21375
+      },
+      "policy": "required",
+      "source": "meta",
+      "target": "system-skill",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R029",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.431159,
+        "target_control_score": 1.759407
+      },
+      "policy": "required",
+      "source": "non-linear",
+      "target": "reason",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R030",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.431159,
+        "target_control_score": 0.58919
+      },
+      "policy": "required",
+      "source": "non-linear",
+      "target": "think",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R031",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.443777,
+        "target_control_score": 1.759407
+      },
+      "policy": "required",
+      "source": "ontolog",
+      "target": "reason",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R032",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.377375,
+        "target_control_score": 1.125449
+      },
+      "policy": "required",
+      "source": "pex",
+      "target": "hierarchical-reasoning",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R033",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.377375,
+        "target_control_score": 0.675769
+      },
+      "policy": "required",
+      "source": "pex",
+      "target": "saq",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R034",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.541239
+      },
+      "policy": "required",
+      "source": "process-goals-prompting",
+      "target": "constraints",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R035",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.455301
+      },
+      "policy": "required",
+      "source": "process-goals-prompting",
+      "target": "critique",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R036",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.1925
+      },
+      "policy": "required",
+      "source": "process-goals-prompting",
+      "target": "dspy",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R037",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.1925,
+        "target_control_score": 0.377375
+      },
+      "policy": "required",
+      "source": "saq-rubric",
+      "target": "pex",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R038",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.1925,
+        "target_control_score": 0.541239
+      },
+      "policy": "required",
+      "source": "saq-rubric-metaschema",
+      "target": "constraints",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R039",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.1925,
+        "target_control_score": 0.675769
+      },
+      "policy": "required",
+      "source": "saq-rubric-metaschema",
+      "target": "saq",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R040",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.675769
+      },
+      "policy": "required",
+      "source": "saq-schema",
+      "target": "saq",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R041",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.455301
+      },
+      "policy": "required",
+      "source": "saq-template-2",
+      "target": "critique",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R042",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.377375
+      },
+      "policy": "required",
+      "source": "saq-template-2",
+      "target": "pex",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R043",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.21375,
+        "target_control_score": 0.325844
+      },
+      "policy": "required",
+      "source": "skill-composer",
+      "target": "lambda",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R044",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.21375,
+        "target_control_score": 0.304594
+      },
+      "policy": "required",
+      "source": "skill-composer",
+      "target": "skill-orchestrator",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R045",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.304594,
+        "target_control_score": 0.268177
+      },
+      "policy": "required",
+      "source": "skill-orchestrator",
+      "target": "agency",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R046",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.304594,
+        "target_control_score": 0.541239
+      },
+      "policy": "required",
+      "source": "skill-orchestrator",
+      "target": "constraints",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R047",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.304594,
+        "target_control_score": 0.236302
+      },
+      "policy": "required",
+      "source": "skill-orchestrator",
+      "target": "skill-protocol",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R048",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.236302,
+        "target_control_score": 0.393356
+      },
+      "policy": "required",
+      "source": "skill-protocol",
+      "target": "skill-updater",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R049",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.393356,
+        "target_control_score": 0.455301
+      },
+      "policy": "required",
+      "source": "skill-updater",
+      "target": "critique",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R050",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.393356,
+        "target_control_score": 0.317176
+      },
+      "policy": "required",
+      "source": "skill-updater",
+      "target": "skill-optimiser",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R051",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.541239
+      },
+      "policy": "required",
+      "source": "telos",
+      "target": "constraints",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R052",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.675769
+      },
+      "policy": "required",
+      "source": "telos",
+      "target": "saq",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R053",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.541239
+      },
+      "policy": "required",
+      "source": "unifying-graph-analytics",
+      "target": "constraints",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R054",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.325844
+      },
+      "policy": "required",
+      "source": "unifying-graph-analytics",
+      "target": "lambda",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R055",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.306475
+      },
+      "policy": "required",
+      "source": "unifying-graph-analytics",
+      "target": "rpp",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R056",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.309375
+      },
+      "policy": "required",
+      "source": "urf",
+      "target": "abduct",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R057",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.268177
+      },
+      "policy": "required",
+      "source": "urf",
+      "target": "agency",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R058",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.541239
+      },
+      "policy": "required",
+      "source": "urf",
+      "target": "constraints",
+      "weight": 1.0
+    },
+    {
+      "control_plane": true,
+      "id": "R059",
+      "kind": "runtime_hard",
+      "meta": {
+        "source_control_score": 0.15,
+        "target_control_score": 0.455301
+      },
+      "policy": "required",
+      "source": "urf",
+      "target": "critique",
+      "weight": 1.0
+    },
+    {
+      "control_plane": false,
+      "id": "R060",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "agency",
+      "target": "reason",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R061",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "cicm-saq-rubric",
+      "target": "reason",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R062",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "cicm-saq-rubric",
+      "target": "saq",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R063",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "compound-learning",
+      "target": "critique",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R064",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "compound-learning",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R065",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "compound-learning",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R066",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "compound-learning",
+      "target": "reason",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R067",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "compound-learning",
+      "target": "think",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R068",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "constraints",
+      "target": "agency",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R069",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "constraints",
+      "target": "reason",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R070",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "critique",
+      "target": "constraints",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R071",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "critique",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R072",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "critique",
+      "target": "think",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R073",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "eloquence",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R074",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "graph-reasoning",
+      "target": "constraints",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R075",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "graph-reasoning",
+      "target": "critique",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R076",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "graph-reasoning",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R077",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "graph-reasoning",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R078",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "graph-reasoning",
+      "target": "non-linear",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R079",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "graph-reasoning",
+      "target": "ontolog",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R080",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "graph-reasoning",
+      "target": "reason",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R081",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "graph-reasoning",
+      "target": "think",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R082",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "hierarchical-reasoning",
+      "target": "constraints",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R083",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "lambda",
+      "target": "constraints",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R084",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "lambda",
+      "target": "critique",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R085",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "lambda",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R086",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "lambda",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R087",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "lambda",
+      "target": "urf",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R088",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "meta",
+      "target": "skill-protocol",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R089",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "meta",
+      "target": "skill-updater",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R090",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "non-linear",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R091",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "obsidian",
+      "target": "learn",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R092",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "ontolog",
+      "target": "abduct",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R093",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "ontolog",
+      "target": "constraints",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R094",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "ontolog",
+      "target": "dspy",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R095",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "ontolog",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R096",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "ontolog",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R097",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "ontolog",
+      "target": "lambda",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R098",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "process-goals-prompting",
+      "target": "think",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R099",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "reason",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R100",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "rpp",
+      "target": "abduct",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R101",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "rpp",
+      "target": "constraints",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R102",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "rpp",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R103",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "saq",
+      "target": "constraints",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R104",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "saq-rubric",
+      "target": "saq",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R105",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "saq-rubric",
+      "target": "saq-rubric-metaschema",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R106",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "saq-rubric",
+      "target": "saq-template-2",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R107",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "saq-rubric-metaschema",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R108",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "saq-rubric-metaschema",
+      "target": "saq-rubric",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R109",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "saq-template-2",
+      "target": "saq",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R110",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "saq-template-2",
+      "target": "saq-rubric",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R111",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-composer",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R112",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-composer",
+      "target": "skill-optimiser",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R113",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-orchestrator",
+      "target": "critique",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R114",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-orchestrator",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R115",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-orchestrator",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R116",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-orchestrator",
+      "target": "skill-composer",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R117",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-orchestrator",
+      "target": "skill-optimiser",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R118",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-orchestrator",
+      "target": "skill-updater",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R119",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-orchestrator",
+      "target": "think",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R120",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-protocol",
+      "target": "critique",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R121",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-protocol",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R122",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-protocol",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R123",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-protocol",
+      "target": "non-linear",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R124",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-protocol",
+      "target": "reason",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R125",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-protocol",
+      "target": "skill-composer",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R126",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-protocol",
+      "target": "skill-optimiser",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R127",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-protocol",
+      "target": "skill-orchestrator",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R128",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-protocol",
+      "target": "think",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R129",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "skill-updater",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R130",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "telos",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R131",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "think",
+      "target": "non-linear",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R132",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "unifying-graph-analytics",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R133",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "urf",
+      "target": "graph",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R134",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "urf",
+      "target": "hierarchical-reasoning",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R135",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "urf",
+      "target": "lambda",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R136",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "urf",
+      "target": "non-linear",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R137",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "urf",
+      "target": "ontolog",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R138",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "urf",
+      "target": "reason",
+      "weight": 0.65
+    },
+    {
+      "control_plane": false,
+      "id": "R139",
+      "kind": "runtime_soft",
+      "policy": "advisory",
+      "source": "urf",
+      "target": "think",
+      "weight": 0.65
+    },
+    {
+      "control_plane": true,
+      "id": "R140",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "skill-orchestrator",
+      "target": "skill-composer",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R141",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "skill-protocol",
+      "target": "skill-composer",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R142",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "skill-protocol",
+      "target": "skill-orchestrator",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R143",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "constraints",
+      "target": "agency",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R144",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "hierarchical-reasoning",
+      "target": "constraints",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R145",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "ontolog",
+      "target": "abduct",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R146",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "ontolog",
+      "target": "constraints",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R147",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "ontolog",
+      "target": "dspy",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R148",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "ontolog",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R149",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "ontolog",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R150",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "ontolog",
+      "target": "lambda",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R151",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "saq",
+      "target": "constraints",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R152",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "critique",
+      "target": "constraints",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R153",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "lambda",
+      "target": "constraints",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R154",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "lambda",
+      "target": "critique",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R155",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "lambda",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R156",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "lambda",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R157",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "non-linear",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R158",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "obsidian",
+      "target": "learn",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R159",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "reason",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R160",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "rpp",
+      "target": "abduct",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R161",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "rpp",
+      "target": "constraints",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R162",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "rpp",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R163",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "scc_dag_order",
+      "source": "think",
+      "target": "non-linear",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R164",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "agency",
+      "target": "reason",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R165",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "cicm-saq-rubric",
+      "target": "reason",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R166",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "cicm-saq-rubric",
+      "target": "saq",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R167",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "compound-learning",
+      "target": "critique",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R168",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "compound-learning",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R169",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "compound-learning",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R170",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "compound-learning",
+      "target": "reason",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R171",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "compound-learning",
+      "target": "think",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R172",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "constraints",
+      "target": "reason",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R173",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "critique",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R174",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "critique",
+      "target": "think",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R175",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "eloquence",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R176",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "graph-reasoning",
+      "target": "constraints",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R177",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "graph-reasoning",
+      "target": "critique",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R178",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "graph-reasoning",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R179",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "graph-reasoning",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R180",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "graph-reasoning",
+      "target": "non-linear",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R181",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "graph-reasoning",
+      "target": "ontolog",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R182",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "graph-reasoning",
+      "target": "reason",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R183",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "graph-reasoning",
+      "target": "think",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R184",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "process-goals-prompting",
+      "target": "think",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R185",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "saq-rubric",
+      "target": "saq",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R186",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "saq-rubric-metaschema",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R187",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "saq-template-2",
+      "target": "saq",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R188",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-composer",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R189",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-composer",
+      "target": "skill-optimiser",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R190",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-orchestrator",
+      "target": "critique",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R191",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-orchestrator",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R192",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-orchestrator",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R193",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-orchestrator",
+      "target": "skill-optimiser",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R194",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-orchestrator",
+      "target": "skill-updater",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R195",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-orchestrator",
+      "target": "think",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R196",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-protocol",
+      "target": "critique",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R197",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-protocol",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R198",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-protocol",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R199",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-protocol",
+      "target": "non-linear",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R200",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-protocol",
+      "target": "reason",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R201",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-protocol",
+      "target": "skill-optimiser",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R202",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-protocol",
+      "target": "think",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R203",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "skill-updater",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R204",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "telos",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R205",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "unifying-graph-analytics",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R206",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "urf",
+      "target": "graph",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R207",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "urf",
+      "target": "hierarchical-reasoning",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R208",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "urf",
+      "target": "non-linear",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R209",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "urf",
+      "target": "ontolog",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R210",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "urf",
+      "target": "reason",
+      "weight": 0.45
+    },
+    {
+      "control_plane": true,
+      "id": "R211",
+      "kind": "demotion",
+      "policy": "compatibility",
+      "reason": "transitive_reduction",
+      "source": "urf",
+      "target": "think",
+      "weight": 0.45
+    },
+    {
+      "alias": "graph-reasoning (1)",
+      "control_plane": false,
+      "id": "R212",
+      "kind": "compat_alias",
+      "policy": "resolution",
+      "source": "graph-reasoning",
+      "target": "graph-reasoning",
+      "weight": 0.2
+    },
+    {
+      "alias": "saq-template-2 (1)",
+      "control_plane": false,
+      "id": "R213",
+      "kind": "compat_alias",
+      "policy": "resolution",
+      "source": "saq-template-2",
+      "target": "saq-template-2",
+      "weight": 0.2
+    }
+  ],
+  "topology": [
+    "cicm-saq-rubric",
+    "compound-learning",
+    "eloquence",
+    "graph-reasoning",
+    "meta",
+    "process-goals-prompting",
+    "saq-schema",
+    "saq-template-2",
+    "telos",
+    "unifying-graph-analytics",
+    "urf",
+    "saq-rubric",
+    "saq-rubric-metaschema",
+    "learn",
+    "skill-composer",
+    "system-skill",
+    "dspy",
+    "abduct",
+    "pex",
+    "lambda",
+    "skill-orchestrator",
+    "obsidian",
+    "saq",
+    "agency",
+    "constraints",
+    "skill-protocol",
+    "rpp",
+    "ontolog",
+    "skill-updater",
+    "critique",
+    "skill-optimiser",
+    "graph",
+    "non-linear",
+    "hierarchical-reasoning",
+    "think",
+    "reason"
+  ]
+}

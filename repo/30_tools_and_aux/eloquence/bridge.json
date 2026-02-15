@@ -1,0 +1,27 @@
+{
+  "called_by": [],
+  "canonical_path": "repo/30_tools_and_aux/eloquence.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "abduct",
+    "graph",
+    "ontolog"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "abduct",
+    "ontolog"
+  ],
+  "id": "eloquence",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 207,
+    "word_count": 681
+  },
+  "soft_refs": [
+    "graph"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,37 @@
+{
+  "called_by": [],
+  "canonical_path": "repo/30_tools_and_aux/compound-learning.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "learn",
+    "reason",
+    "skill-updater",
+    "think"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "constraints",
+    "learn",
+    "skill-updater"
+  ],
+  "id": "compound-learning",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 204,
+    "word_count": 708
+  },
+  "soft_refs": [
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "reason",
+    "think"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,36 @@
+{
+  "called_by": [
+    "abduct",
+    "critique",
+    "graph-reasoning",
+    "skill-protocol",
+    "think",
+    "urf"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/non-linear.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "graph",
+    "reason",
+    "think"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "non-linear/scripts/orchestrator.py"
+  ],
+  "hard_deps": [
+    "reason",
+    "think"
+  ],
+  "id": "non-linear",
+  "outputs": [],
+  "quality": {
+    "script_count": 1,
+    "tokens": 190,
+    "word_count": 599
+  },
+  "soft_refs": [
+    "graph"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "called_by": [],
+  "canonical_path": "repo/20_saq_medical/cicm-saq-rubric.skill",
+  "category": "20_saq_medical",
+  "depends_on": [
+    "lambda",
+    "reason",
+    "saq",
+    "saq-rubric",
+    "saq-rubric-metaschema"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "cicm-saq-rubric/scripts/quick_check.py",
+    "cicm-saq-rubric/scripts/validator.py"
+  ],
+  "hard_deps": [
+    "lambda",
+    "saq-rubric",
+    "saq-rubric-metaschema"
+  ],
+  "id": "cicm-saq-rubric",
+  "outputs": [],
+  "quality": {
+    "script_count": 2,
+    "tokens": 131,
+    "word_count": 444
+  },
+  "soft_refs": [
+    "reason",
+    "saq"
+  ],
+  "version": "0.1.0"
+}

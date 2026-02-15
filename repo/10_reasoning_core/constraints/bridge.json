@@ -1,0 +1,46 @@
+{
+  "called_by": [
+    "compound-learning",
+    "critique",
+    "graph-reasoning",
+    "hierarchical-reasoning",
+    "lambda",
+    "ontolog",
+    "process-goals-prompting",
+    "rpp",
+    "saq",
+    "saq-rubric-metaschema",
+    "skill-orchestrator",
+    "telos",
+    "unifying-graph-analytics",
+    "urf"
+  ],
+  "canonical_path": "repo/10_reasoning_core/constraints.skill",
+  "category": "10_reasoning_core",
+  "depends_on": [
+    "agency",
+    "graph",
+    "ontolog",
+    "reason"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "constraints/scripts/validate.py"
+  ],
+  "hard_deps": [
+    "graph",
+    "ontolog"
+  ],
+  "id": "constraints",
+  "outputs": [],
+  "quality": {
+    "script_count": 1,
+    "tokens": 190,
+    "word_count": 596
+  },
+  "soft_refs": [
+    "agency",
+    "reason"
+  ],
+  "version": "0.1.0"
+}

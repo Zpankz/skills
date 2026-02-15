@@ -1,0 +1,461 @@
+{
+  "condensed_edge_count": 59,
+  "condensed_node_count": 36,
+  "edges": [
+    {
+      "from": "C1",
+      "to": "C0"
+    },
+    {
+      "from": "C10",
+      "to": "C0"
+    },
+    {
+      "from": "C10",
+      "to": "C3"
+    },
+    {
+      "from": "C10",
+      "to": "C9"
+    },
+    {
+      "from": "C11",
+      "to": "C1"
+    },
+    {
+      "from": "C11",
+      "to": "C9"
+    },
+    {
+      "from": "C12",
+      "to": "C11"
+    },
+    {
+      "from": "C13",
+      "to": "C0"
+    },
+    {
+      "from": "C14",
+      "to": "C13"
+    },
+    {
+      "from": "C14",
+      "to": "C2"
+    },
+    {
+      "from": "C15",
+      "to": "C14"
+    },
+    {
+      "from": "C15",
+      "to": "C9"
+    },
+    {
+      "from": "C16",
+      "to": "C10"
+    },
+    {
+      "from": "C16",
+      "to": "C12"
+    },
+    {
+      "from": "C16",
+      "to": "C15"
+    },
+    {
+      "from": "C17",
+      "to": "C3"
+    },
+    {
+      "from": "C18",
+      "to": "C2"
+    },
+    {
+      "from": "C18",
+      "to": "C4"
+    },
+    {
+      "from": "C2",
+      "to": "C1"
+    },
+    {
+      "from": "C20",
+      "to": "C18"
+    },
+    {
+      "from": "C20",
+      "to": "C19"
+    },
+    {
+      "from": "C21",
+      "to": "C14"
+    },
+    {
+      "from": "C21",
+      "to": "C17"
+    },
+    {
+      "from": "C21",
+      "to": "C20"
+    },
+    {
+      "from": "C22",
+      "to": "C2"
+    },
+    {
+      "from": "C23",
+      "to": "C13"
+    },
+    {
+      "from": "C23",
+      "to": "C6"
+    },
+    {
+      "from": "C24",
+      "to": "C20"
+    },
+    {
+      "from": "C25",
+      "to": "C14"
+    },
+    {
+      "from": "C25",
+      "to": "C24"
+    },
+    {
+      "from": "C25",
+      "to": "C8"
+    },
+    {
+      "from": "C26",
+      "to": "C10"
+    },
+    {
+      "from": "C26",
+      "to": "C25"
+    },
+    {
+      "from": "C27",
+      "to": "C26"
+    },
+    {
+      "from": "C27",
+      "to": "C6"
+    },
+    {
+      "from": "C29",
+      "to": "C25"
+    },
+    {
+      "from": "C29",
+      "to": "C28"
+    },
+    {
+      "from": "C30",
+      "to": "C14"
+    },
+    {
+      "from": "C30",
+      "to": "C18"
+    },
+    {
+      "from": "C30",
+      "to": "C22"
+    },
+    {
+      "from": "C31",
+      "to": "C9"
+    },
+    {
+      "from": "C32",
+      "to": "C11"
+    },
+    {
+      "from": "C32",
+      "to": "C18"
+    },
+    {
+      "from": "C33",
+      "to": "C14"
+    },
+    {
+      "from": "C33",
+      "to": "C9"
+    },
+    {
+      "from": "C34",
+      "to": "C10"
+    },
+    {
+      "from": "C34",
+      "to": "C14"
+    },
+    {
+      "from": "C34",
+      "to": "C7"
+    },
+    {
+      "from": "C35",
+      "to": "C14"
+    },
+    {
+      "from": "C35",
+      "to": "C18"
+    },
+    {
+      "from": "C35",
+      "to": "C6"
+    },
+    {
+      "from": "C35",
+      "to": "C8"
+    },
+    {
+      "from": "C4",
+      "to": "C0"
+    },
+    {
+      "from": "C4",
+      "to": "C3"
+    },
+    {
+      "from": "C6",
+      "to": "C2"
+    },
+    {
+      "from": "C6",
+      "to": "C4"
+    },
+    {
+      "from": "C6",
+      "to": "C5"
+    },
+    {
+      "from": "C8",
+      "to": "C1"
+    },
+    {
+      "from": "C8",
+      "to": "C7"
+    }
+  ],
+  "generated_at": "2026-02-14T17:31:11.391178Z",
+  "node_map": {
+    "C0": {
+      "members": [
+        "reason"
+      ],
+      "size": 1
+    },
+    "C1": {
+      "members": [
+        "hierarchical-reasoning"
+      ],
+      "size": 1
+    },
+    "C10": {
+      "members": [
+        "lambda"
+      ],
+      "size": 1
+    },
+    "C11": {
+      "members": [
+        "pex"
+      ],
+      "size": 1
+    },
+    "C12": {
+      "members": [
+        "saq-rubric"
+      ],
+      "size": 1
+    },
+    "C13": {
+      "members": [
+        "ontolog"
+      ],
+      "size": 1
+    },
+    "C14": {
+      "members": [
+        "constraints"
+      ],
+      "size": 1
+    },
+    "C15": {
+      "members": [
+        "saq-rubric-metaschema"
+      ],
+      "size": 1
+    },
+    "C16": {
+      "members": [
+        "cicm-saq-rubric"
+      ],
+      "size": 1
+    },
+    "C17": {
+      "members": [
+        "learn"
+      ],
+      "size": 1
+    },
+    "C18": {
+      "members": [
+        "critique"
+      ],
+      "size": 1
+    },
+    "C19": {
+      "members": [
+        "skill-optimiser"
+      ],
+      "size": 1
+    },
+    "C2": {
+      "members": [
+        "graph"
+      ],
+      "size": 1
+    },
+    "C20": {
+      "members": [
+        "skill-updater"
+      ],
+      "size": 1
+    },
+    "C21": {
+      "members": [
+        "compound-learning"
+      ],
+      "size": 1
+    },
+    "C22": {
+      "members": [
+        "dspy"
+      ],
+      "size": 1
+    },
+    "C23": {
+      "members": [
+        "eloquence"
+      ],
+      "size": 1
+    },
+    "C24": {
+      "members": [
+        "skill-protocol"
+      ],
+      "size": 1
+    },
+    "C25": {
+      "members": [
+        "skill-orchestrator"
+      ],
+      "size": 1
+    },
+    "C26": {
+      "members": [
+        "skill-composer"
+      ],
+      "size": 1
+    },
+    "C27": {
+      "members": [
+        "graph-reasoning"
+      ],
+      "size": 1
+    },
+    "C28": {
+      "members": [
+        "system-skill"
+      ],
+      "size": 1
+    },
+    "C29": {
+      "members": [
+        "meta"
+      ],
+      "size": 1
+    },
+    "C3": {
+      "members": [
+        "think"
+      ],
+      "size": 1
+    },
+    "C30": {
+      "members": [
+        "process-goals-prompting"
+      ],
+      "size": 1
+    },
+    "C31": {
+      "members": [
+        "saq-schema"
+      ],
+      "size": 1
+    },
+    "C32": {
+      "members": [
+        "saq-template-2"
+      ],
+      "size": 1
+    },
+    "C33": {
+      "members": [
+        "telos"
+      ],
+      "size": 1
+    },
+    "C34": {
+      "members": [
+        "unifying-graph-analytics"
+      ],
+      "size": 1
+    },
+    "C35": {
+      "members": [
+        "urf"
+      ],
+      "size": 1
+    },
+    "C4": {
+      "members": [
+        "non-linear"
+      ],
+      "size": 1
+    },
+    "C5": {
+      "members": [
+        "obsidian"
+      ],
+      "size": 1
+    },
+    "C6": {
+      "members": [
+        "abduct"
+      ],
+      "size": 1
+    },
+    "C7": {
+      "members": [
+        "rpp"
+      ],
+      "size": 1
+    },
+    "C8": {
+      "members": [
+        "agency"
+      ],
+      "size": 1
+    },
+    "C9": {
+      "members": [
+        "saq"
+      ],
+      "size": 1
+    }
+  }
+}

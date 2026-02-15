@@ -1,0 +1,41 @@
+{
+  "called_by": [
+    "agency",
+    "compound-learning",
+    "critique",
+    "graph",
+    "graph-reasoning",
+    "lambda",
+    "ontolog",
+    "pex",
+    "saq-rubric-metaschema",
+    "skill-orchestrator",
+    "skill-protocol",
+    "telos",
+    "urf"
+  ],
+  "canonical_path": "repo/10_reasoning_core/hierarchical-reasoning.skill",
+  "category": "10_reasoning_core",
+  "depends_on": [
+    "constraints",
+    "reason"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "hierarchical-reasoning/scripts/hierarchical_reasoner.py"
+  ],
+  "hard_deps": [
+    "reason"
+  ],
+  "id": "hierarchical-reasoning",
+  "outputs": [],
+  "quality": {
+    "script_count": 1,
+    "tokens": 190,
+    "word_count": 530
+  },
+  "soft_refs": [
+    "constraints"
+  ],
+  "version": "0.1.0"
+}

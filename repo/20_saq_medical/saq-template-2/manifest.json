@@ -1,0 +1,46 @@
+{
+  "id": "saq-template-2",
+  "name": "saq-template-2",
+  "category": "skill",
+  "triggers": [
+    "Phase-gated SAQ model response generator with mandatory retrieval, vertex compression, and validation gates. Use when generating CICM/ANZCA Primary examination SAQ responses, creating model answers, or regenerating existing SAQs. Triggers on: SAQ generation, model answer creation, examination response writing, SAQ regeneration requests. Enforces 5 mandatory phases (\u03a60-\u03a64) preventing fabricated metadata, ensuring equation-grounded structure, and validating information density."
+  ],
+  "capabilities": [
+    "Severity",
+    "ValidationResult",
+    "Violation",
+    "calculate_density",
+    "check_phase_gates",
+    "count_cascades",
+    "count_symbols",
+    "count_words",
+    "detect_background_preamble",
+    "detect_bare_comparisons",
+    "detect_decomposed_cascades",
+    "detect_isolated_parameters",
+    "detect_prohibited_headings",
+    "detect_prohibited_prefixes",
+    "detect_verbose_headings",
+    "detect_verbose_patterns",
+    "format_result",
+    "main",
+    "validate_saq"
+  ],
+  "hard_deps": [
+    "critique",
+    "pex",
+    "saq"
+  ],
+  "soft_refs": [
+    "saq-rubric"
+  ],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 482,
+    "hard_degree": 3,
+    "soft_degree": 1,
+    "cluster": "20_saq_medical"
+  }
+}

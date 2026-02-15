@@ -1,0 +1,48 @@
+{
+  "called_by": [
+    "lambda"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/urf.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "abduct",
+    "agency",
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "lambda",
+    "non-linear",
+    "ontolog",
+    "reason",
+    "think"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "urf/scripts/classify.py",
+    "urf/scripts/validate.py"
+  ],
+  "hard_deps": [
+    "abduct",
+    "agency",
+    "constraints",
+    "critique"
+  ],
+  "id": "urf",
+  "outputs": [],
+  "quality": {
+    "script_count": 2,
+    "tokens": 210,
+    "word_count": 655
+  },
+  "soft_refs": [
+    "graph",
+    "hierarchical-reasoning",
+    "lambda",
+    "non-linear",
+    "ontolog",
+    "reason",
+    "think"
+  ],
+  "version": "0.1.0"
+}

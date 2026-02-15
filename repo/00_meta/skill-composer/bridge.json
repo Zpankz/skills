@@ -1,0 +1,33 @@
+{
+  "called_by": [
+    "graph-reasoning",
+    "skill-orchestrator",
+    "skill-protocol"
+  ],
+  "canonical_path": "repo/00_meta/skill-composer.skill",
+  "category": "00_meta",
+  "depends_on": [
+    "graph",
+    "lambda",
+    "skill-optimiser",
+    "skill-orchestrator"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "lambda",
+    "skill-orchestrator"
+  ],
+  "id": "skill-composer",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 159,
+    "word_count": 649
+  },
+  "soft_refs": [
+    "graph",
+    "skill-optimiser"
+  ],
+  "version": "0.1.0"
+}

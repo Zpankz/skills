@@ -1,0 +1,27 @@
+{
+  "called_by": [
+    "abduct"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/obsidian.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "learn"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "obsidian/scripts/hooks/memory-manager.py",
+    "obsidian/scripts/lib/validators.py"
+  ],
+  "hard_deps": [],
+  "id": "obsidian",
+  "outputs": [],
+  "quality": {
+    "script_count": 2,
+    "tokens": 157,
+    "word_count": 533
+  },
+  "soft_refs": [
+    "learn"
+  ],
+  "version": "0.1.0"
+}

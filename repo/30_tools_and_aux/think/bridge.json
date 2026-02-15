@@ -1,0 +1,33 @@
+{
+  "called_by": [
+    "compound-learning",
+    "critique",
+    "graph-reasoning",
+    "lambda",
+    "learn",
+    "non-linear",
+    "process-goals-prompting",
+    "skill-orchestrator",
+    "skill-protocol",
+    "urf"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/think.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "non-linear"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [],
+  "id": "think",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 111,
+    "word_count": 300
+  },
+  "soft_refs": [
+    "non-linear"
+  ],
+  "version": "0.1.0"
+}

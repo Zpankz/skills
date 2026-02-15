@@ -1,0 +1,46 @@
+{
+  "called_by": [],
+  "canonical_path": "repo/10_reasoning_core/unifying-graph-analytics.skill",
+  "category": "10_reasoning_core",
+  "depends_on": [
+    "constraints",
+    "graph",
+    "lambda",
+    "rpp"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "unifying-graph-analytics/scripts/api_client.py",
+    "unifying-graph-analytics/scripts/bayes_router.py",
+    "unifying-graph-analytics/scripts/compact_session.py",
+    "unifying-graph-analytics/scripts/endpoints.py",
+    "unifying-graph-analytics/scripts/graph_converter.py",
+    "unifying-graph-analytics/scripts/lambda_encoder.py",
+    "unifying-graph-analytics/scripts/lexicon.py",
+    "unifying-graph-analytics/scripts/metagraph_builder.py",
+    "unifying-graph-analytics/scripts/pipeline.py",
+    "unifying-graph-analytics/scripts/render_template.py",
+    "unifying-graph-analytics/scripts/render_unified.py",
+    "unifying-graph-analytics/scripts/rpp_optimizer.py",
+    "unifying-graph-analytics/scripts/run_api.py",
+    "unifying-graph-analytics/scripts/schema_kernel.py",
+    "unifying-graph-analytics/scripts/workflow_analyzer.py",
+    "unifying-graph-analytics/scripts/workflow_manifest.py"
+  ],
+  "hard_deps": [
+    "constraints",
+    "lambda",
+    "rpp"
+  ],
+  "id": "unifying-graph-analytics",
+  "outputs": [],
+  "quality": {
+    "script_count": 16,
+    "tokens": 196,
+    "word_count": 523
+  },
+  "soft_refs": [
+    "graph"
+  ],
+  "version": "0.1.0"
+}

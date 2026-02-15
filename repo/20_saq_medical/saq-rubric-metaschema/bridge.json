@@ -1,0 +1,37 @@
+{
+  "called_by": [
+    "cicm-saq-rubric",
+    "saq-rubric"
+  ],
+  "canonical_path": "repo/20_saq_medical/saq-rubric-metaschema.skill",
+  "category": "20_saq_medical",
+  "depends_on": [
+    "constraints",
+    "hierarchical-reasoning",
+    "saq",
+    "saq-rubric"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "saq-rubric-metaschema/scripts/histogram_analyzer.py",
+    "saq-rubric-metaschema/scripts/orchestrate.py",
+    "saq-rubric-metaschema/scripts/rubric_generator.py",
+    "saq-rubric-metaschema/scripts/schema_validator.py"
+  ],
+  "hard_deps": [
+    "constraints",
+    "saq"
+  ],
+  "id": "saq-rubric-metaschema",
+  "outputs": [],
+  "quality": {
+    "script_count": 4,
+    "tokens": 213,
+    "word_count": 648
+  },
+  "soft_refs": [
+    "hierarchical-reasoning",
+    "saq-rubric"
+  ],
+  "version": "0.1.0"
+}

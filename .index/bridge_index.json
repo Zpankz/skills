@@ -1,0 +1,571 @@
+{
+  "alias_to_canonical": {
+    "graph-reasoning (1)": "graph-reasoning",
+    "saq-template-2 (1)": "saq-template-2"
+  },
+  "canonical_to_aliases": {
+    "abduct": [],
+    "agency": [],
+    "cicm-saq-rubric": [],
+    "compound-learning": [],
+    "constraints": [],
+    "critique": [],
+    "dspy": [],
+    "eloquence": [],
+    "graph": [],
+    "graph-reasoning": [
+      "graph-reasoning (1)"
+    ],
+    "hierarchical-reasoning": [],
+    "lambda": [],
+    "learn": [],
+    "meta": [],
+    "non-linear": [],
+    "obsidian": [],
+    "ontolog": [],
+    "pex": [],
+    "process-goals-prompting": [],
+    "reason": [],
+    "rpp": [],
+    "saq": [],
+    "saq-rubric": [],
+    "saq-rubric-metaschema": [],
+    "saq-schema": [],
+    "saq-template-2": [
+      "saq-template-2 (1)"
+    ],
+    "skill-composer": [],
+    "skill-optimiser": [],
+    "skill-orchestrator": [],
+    "skill-protocol": [],
+    "skill-updater": [],
+    "system-skill": [],
+    "telos": [],
+    "think": [],
+    "unifying-graph-analytics": [],
+    "urf": []
+  },
+  "generated_at": "2026-02-14T17:31:11.386926Z",
+  "skills": {
+    "abduct": {
+      "archive": "repo/30_tools_and_aux/abduct.skill",
+      "bridge_path": "repo/30_tools_and_aux/abduct/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "graph",
+        "non-linear",
+        "obsidian"
+      ],
+      "id": "abduct",
+      "manifest_path": "repo/30_tools_and_aux/abduct/manifest.json",
+      "soft_deps": []
+    },
+    "agency": {
+      "archive": "repo/30_tools_and_aux/agency.skill",
+      "bridge_path": "repo/30_tools_and_aux/agency/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "hierarchical-reasoning",
+        "rpp"
+      ],
+      "id": "agency",
+      "manifest_path": "repo/30_tools_and_aux/agency/manifest.json",
+      "soft_deps": [
+        "reason"
+      ]
+    },
+    "cicm-saq-rubric": {
+      "archive": "repo/20_saq_medical/cicm-saq-rubric.skill",
+      "bridge_path": "repo/20_saq_medical/cicm-saq-rubric/bridge.json",
+      "cluster": "20_saq_medical",
+      "hard_deps": [
+        "lambda",
+        "saq-rubric",
+        "saq-rubric-metaschema"
+      ],
+      "id": "cicm-saq-rubric",
+      "manifest_path": "repo/20_saq_medical/cicm-saq-rubric/manifest.json",
+      "soft_deps": [
+        "reason",
+        "saq"
+      ]
+    },
+    "compound-learning": {
+      "archive": "repo/30_tools_and_aux/compound-learning.skill",
+      "bridge_path": "repo/30_tools_and_aux/compound-learning/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "constraints",
+        "learn",
+        "skill-updater"
+      ],
+      "id": "compound-learning",
+      "manifest_path": "repo/30_tools_and_aux/compound-learning/manifest.json",
+      "soft_deps": [
+        "critique",
+        "graph",
+        "hierarchical-reasoning",
+        "reason",
+        "think"
+      ]
+    },
+    "constraints": {
+      "archive": "repo/10_reasoning_core/constraints.skill",
+      "bridge_path": "repo/10_reasoning_core/constraints/bridge.json",
+      "cluster": "10_reasoning_core",
+      "hard_deps": [
+        "graph",
+        "ontolog"
+      ],
+      "id": "constraints",
+      "manifest_path": "repo/10_reasoning_core/constraints/manifest.json",
+      "soft_deps": [
+        "agency",
+        "reason"
+      ]
+    },
+    "critique": {
+      "archive": "repo/30_tools_and_aux/critique.skill",
+      "bridge_path": "repo/30_tools_and_aux/critique/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "graph",
+        "non-linear"
+      ],
+      "id": "critique",
+      "manifest_path": "repo/30_tools_and_aux/critique/manifest.json",
+      "soft_deps": [
+        "constraints",
+        "hierarchical-reasoning",
+        "think"
+      ]
+    },
+    "dspy": {
+      "archive": "repo/30_tools_and_aux/dspy.skill",
+      "bridge_path": "repo/30_tools_and_aux/dspy/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "graph"
+      ],
+      "id": "dspy",
+      "manifest_path": "repo/30_tools_and_aux/dspy/manifest.json",
+      "soft_deps": []
+    },
+    "eloquence": {
+      "archive": "repo/30_tools_and_aux/eloquence.skill",
+      "bridge_path": "repo/30_tools_and_aux/eloquence/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "abduct",
+        "ontolog"
+      ],
+      "id": "eloquence",
+      "manifest_path": "repo/30_tools_and_aux/eloquence/manifest.json",
+      "soft_deps": [
+        "graph"
+      ]
+    },
+    "graph": {
+      "archive": "repo/10_reasoning_core/graph.skill",
+      "bridge_path": "repo/10_reasoning_core/graph/bridge.json",
+      "cluster": "10_reasoning_core",
+      "hard_deps": [
+        "hierarchical-reasoning"
+      ],
+      "id": "graph",
+      "manifest_path": "repo/10_reasoning_core/graph/manifest.json",
+      "soft_deps": []
+    },
+    "graph-reasoning": {
+      "archive": "repo/10_reasoning_core/graph-reasoning.skill",
+      "bridge_path": "repo/10_reasoning_core/graph-reasoning/bridge.json",
+      "cluster": "10_reasoning_core",
+      "hard_deps": [
+        "abduct",
+        "skill-composer"
+      ],
+      "id": "graph-reasoning",
+      "manifest_path": "repo/10_reasoning_core/graph-reasoning/manifest.json",
+      "soft_deps": [
+        "constraints",
+        "critique",
+        "graph",
+        "hierarchical-reasoning",
+        "non-linear",
+        "ontolog",
+        "reason",
+        "think"
+      ]
+    },
+    "hierarchical-reasoning": {
+      "archive": "repo/10_reasoning_core/hierarchical-reasoning.skill",
+      "bridge_path": "repo/10_reasoning_core/hierarchical-reasoning/bridge.json",
+      "cluster": "10_reasoning_core",
+      "hard_deps": [
+        "reason"
+      ],
+      "id": "hierarchical-reasoning",
+      "manifest_path": "repo/10_reasoning_core/hierarchical-reasoning/manifest.json",
+      "soft_deps": [
+        "constraints"
+      ]
+    },
+    "lambda": {
+      "archive": "repo/30_tools_and_aux/lambda.skill",
+      "bridge_path": "repo/30_tools_and_aux/lambda/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "reason",
+        "saq",
+        "think"
+      ],
+      "id": "lambda",
+      "manifest_path": "repo/30_tools_and_aux/lambda/manifest.json",
+      "soft_deps": [
+        "constraints",
+        "critique",
+        "graph",
+        "hierarchical-reasoning",
+        "urf"
+      ]
+    },
+    "learn": {
+      "archive": "repo/30_tools_and_aux/learn.skill",
+      "bridge_path": "repo/30_tools_and_aux/learn/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "think"
+      ],
+      "id": "learn",
+      "manifest_path": "repo/30_tools_and_aux/learn/manifest.json",
+      "soft_deps": []
+    },
+    "meta": {
+      "archive": "repo/00_meta/meta.skill",
+      "bridge_path": "repo/00_meta/meta/bridge.json",
+      "cluster": "00_meta",
+      "hard_deps": [
+        "skill-orchestrator",
+        "system-skill"
+      ],
+      "id": "meta",
+      "manifest_path": "repo/00_meta/meta/manifest.json",
+      "soft_deps": [
+        "skill-protocol",
+        "skill-updater"
+      ]
+    },
+    "non-linear": {
+      "archive": "repo/30_tools_and_aux/non-linear.skill",
+      "bridge_path": "repo/30_tools_and_aux/non-linear/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "reason",
+        "think"
+      ],
+      "id": "non-linear",
+      "manifest_path": "repo/30_tools_and_aux/non-linear/manifest.json",
+      "soft_deps": [
+        "graph"
+      ]
+    },
+    "obsidian": {
+      "archive": "repo/30_tools_and_aux/obsidian.skill",
+      "bridge_path": "repo/30_tools_and_aux/obsidian/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [],
+      "id": "obsidian",
+      "manifest_path": "repo/30_tools_and_aux/obsidian/manifest.json",
+      "soft_deps": [
+        "learn"
+      ]
+    },
+    "ontolog": {
+      "archive": "repo/10_reasoning_core/ontolog.skill",
+      "bridge_path": "repo/10_reasoning_core/ontolog/bridge.json",
+      "cluster": "10_reasoning_core",
+      "hard_deps": [
+        "reason"
+      ],
+      "id": "ontolog",
+      "manifest_path": "repo/10_reasoning_core/ontolog/manifest.json",
+      "soft_deps": [
+        "abduct",
+        "constraints",
+        "dspy",
+        "graph",
+        "hierarchical-reasoning",
+        "lambda"
+      ]
+    },
+    "pex": {
+      "archive": "repo/20_saq_medical/pex.skill",
+      "bridge_path": "repo/20_saq_medical/pex/bridge.json",
+      "cluster": "20_saq_medical",
+      "hard_deps": [
+        "hierarchical-reasoning",
+        "saq"
+      ],
+      "id": "pex",
+      "manifest_path": "repo/20_saq_medical/pex/manifest.json",
+      "soft_deps": []
+    },
+    "process-goals-prompting": {
+      "archive": "repo/30_tools_and_aux/process-goals-prompting.skill",
+      "bridge_path": "repo/30_tools_and_aux/process-goals-prompting/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "constraints",
+        "critique",
+        "dspy"
+      ],
+      "id": "process-goals-prompting",
+      "manifest_path": "repo/30_tools_and_aux/process-goals-prompting/manifest.json",
+      "soft_deps": [
+        "think"
+      ]
+    },
+    "reason": {
+      "archive": "repo/30_tools_and_aux/reason.skill",
+      "bridge_path": "repo/30_tools_and_aux/reason/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [],
+      "id": "reason",
+      "manifest_path": "repo/30_tools_and_aux/reason/manifest.json",
+      "soft_deps": [
+        "graph"
+      ]
+    },
+    "rpp": {
+      "archive": "repo/30_tools_and_aux/rpp.skill",
+      "bridge_path": "repo/30_tools_and_aux/rpp/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [],
+      "id": "rpp",
+      "manifest_path": "repo/30_tools_and_aux/rpp/manifest.json",
+      "soft_deps": [
+        "abduct",
+        "constraints",
+        "graph"
+      ]
+    },
+    "saq": {
+      "archive": "repo/20_saq_medical/saq.skill",
+      "bridge_path": "repo/20_saq_medical/saq/bridge.json",
+      "cluster": "20_saq_medical",
+      "hard_deps": [],
+      "id": "saq",
+      "manifest_path": "repo/20_saq_medical/saq/manifest.json",
+      "soft_deps": [
+        "constraints"
+      ]
+    },
+    "saq-rubric": {
+      "archive": "repo/20_saq_medical/saq-rubric.skill",
+      "bridge_path": "repo/20_saq_medical/saq-rubric/bridge.json",
+      "cluster": "20_saq_medical",
+      "hard_deps": [
+        "pex"
+      ],
+      "id": "saq-rubric",
+      "manifest_path": "repo/20_saq_medical/saq-rubric/manifest.json",
+      "soft_deps": [
+        "saq",
+        "saq-rubric-metaschema",
+        "saq-template-2"
+      ]
+    },
+    "saq-rubric-metaschema": {
+      "archive": "repo/20_saq_medical/saq-rubric-metaschema.skill",
+      "bridge_path": "repo/20_saq_medical/saq-rubric-metaschema/bridge.json",
+      "cluster": "20_saq_medical",
+      "hard_deps": [
+        "constraints",
+        "saq"
+      ],
+      "id": "saq-rubric-metaschema",
+      "manifest_path": "repo/20_saq_medical/saq-rubric-metaschema/manifest.json",
+      "soft_deps": [
+        "hierarchical-reasoning",
+        "saq-rubric"
+      ]
+    },
+    "saq-schema": {
+      "archive": "repo/20_saq_medical/saq-schema.skill",
+      "bridge_path": "repo/20_saq_medical/saq-schema/bridge.json",
+      "cluster": "20_saq_medical",
+      "hard_deps": [
+        "saq"
+      ],
+      "id": "saq-schema",
+      "manifest_path": "repo/20_saq_medical/saq-schema/manifest.json",
+      "soft_deps": []
+    },
+    "saq-template-2": {
+      "archive": "repo/20_saq_medical/saq-template-2.skill",
+      "bridge_path": "repo/20_saq_medical/saq-template-2/bridge.json",
+      "cluster": "20_saq_medical",
+      "hard_deps": [
+        "critique",
+        "pex"
+      ],
+      "id": "saq-template-2",
+      "manifest_path": "repo/20_saq_medical/saq-template-2/manifest.json",
+      "soft_deps": [
+        "saq",
+        "saq-rubric"
+      ]
+    },
+    "skill-composer": {
+      "archive": "repo/00_meta/skill-composer.skill",
+      "bridge_path": "repo/00_meta/skill-composer/bridge.json",
+      "cluster": "00_meta",
+      "hard_deps": [
+        "lambda",
+        "skill-orchestrator"
+      ],
+      "id": "skill-composer",
+      "manifest_path": "repo/00_meta/skill-composer/manifest.json",
+      "soft_deps": [
+        "graph",
+        "skill-optimiser"
+      ]
+    },
+    "skill-optimiser": {
+      "archive": "repo/00_meta/skill-optimiser.skill",
+      "bridge_path": "repo/00_meta/skill-optimiser/bridge.json",
+      "cluster": "00_meta",
+      "hard_deps": [],
+      "id": "skill-optimiser",
+      "manifest_path": "repo/00_meta/skill-optimiser/manifest.json",
+      "soft_deps": []
+    },
+    "skill-orchestrator": {
+      "archive": "repo/00_meta/skill-orchestrator.skill",
+      "bridge_path": "repo/00_meta/skill-orchestrator/bridge.json",
+      "cluster": "00_meta",
+      "hard_deps": [
+        "agency",
+        "constraints",
+        "skill-protocol"
+      ],
+      "id": "skill-orchestrator",
+      "manifest_path": "repo/00_meta/skill-orchestrator/manifest.json",
+      "soft_deps": [
+        "critique",
+        "graph",
+        "hierarchical-reasoning",
+        "skill-composer",
+        "skill-optimiser",
+        "skill-updater",
+        "think"
+      ]
+    },
+    "skill-protocol": {
+      "archive": "repo/00_meta/skill-protocol.skill",
+      "bridge_path": "repo/00_meta/skill-protocol/bridge.json",
+      "cluster": "00_meta",
+      "hard_deps": [
+        "skill-updater"
+      ],
+      "id": "skill-protocol",
+      "manifest_path": "repo/00_meta/skill-protocol/manifest.json",
+      "soft_deps": [
+        "critique",
+        "graph",
+        "hierarchical-reasoning",
+        "non-linear",
+        "reason",
+        "skill-composer",
+        "skill-optimiser",
+        "skill-orchestrator",
+        "think"
+      ]
+    },
+    "skill-updater": {
+      "archive": "repo/00_meta/skill-updater.skill",
+      "bridge_path": "repo/00_meta/skill-updater/bridge.json",
+      "cluster": "00_meta",
+      "hard_deps": [
+        "critique",
+        "skill-optimiser"
+      ],
+      "id": "skill-updater",
+      "manifest_path": "repo/00_meta/skill-updater/manifest.json",
+      "soft_deps": [
+        "graph"
+      ]
+    },
+    "system-skill": {
+      "archive": "repo/00_meta/system-skill.skill",
+      "bridge_path": "repo/00_meta/system-skill/bridge.json",
+      "cluster": "00_meta",
+      "hard_deps": [],
+      "id": "system-skill",
+      "manifest_path": "repo/00_meta/system-skill/manifest.json",
+      "soft_deps": []
+    },
+    "telos": {
+      "archive": "repo/20_saq_medical/telos.skill",
+      "bridge_path": "repo/20_saq_medical/telos/bridge.json",
+      "cluster": "20_saq_medical",
+      "hard_deps": [
+        "constraints",
+        "saq"
+      ],
+      "id": "telos",
+      "manifest_path": "repo/20_saq_medical/telos/manifest.json",
+      "soft_deps": [
+        "hierarchical-reasoning"
+      ]
+    },
+    "think": {
+      "archive": "repo/30_tools_and_aux/think.skill",
+      "bridge_path": "repo/30_tools_and_aux/think/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [],
+      "id": "think",
+      "manifest_path": "repo/30_tools_and_aux/think/manifest.json",
+      "soft_deps": [
+        "non-linear"
+      ]
+    },
+    "unifying-graph-analytics": {
+      "archive": "repo/10_reasoning_core/unifying-graph-analytics.skill",
+      "bridge_path": "repo/10_reasoning_core/unifying-graph-analytics/bridge.json",
+      "cluster": "10_reasoning_core",
+      "hard_deps": [
+        "constraints",
+        "lambda",
+        "rpp"
+      ],
+      "id": "unifying-graph-analytics",
+      "manifest_path": "repo/10_reasoning_core/unifying-graph-analytics/manifest.json",
+      "soft_deps": [
+        "graph"
+      ]
+    },
+    "urf": {
+      "archive": "repo/30_tools_and_aux/urf.skill",
+      "bridge_path": "repo/30_tools_and_aux/urf/bridge.json",
+      "cluster": "30_tools_and_aux",
+      "hard_deps": [
+        "abduct",
+        "agency",
+        "constraints",
+        "critique"
+      ],
+      "id": "urf",
+      "manifest_path": "repo/30_tools_and_aux/urf/manifest.json",
+      "soft_deps": [
+        "graph",
+        "hierarchical-reasoning",
+        "lambda",
+        "non-linear",
+        "ontolog",
+        "reason",
+        "think"
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "urf",
+  "name": "urf",
+  "category": "skill",
+  "triggers": [
+    "**Auto-Escalation Triggers:**"
+  ],
+  "capabilities": [
+    "ClassificationResult",
+    "Pipeline",
+    "TopologyReport",
+    "TopologyValidator",
+    "ValidationResult",
+    "ValidationStatus",
+    "__init__",
+    "_build_adjacency",
+    "_clustering_coefficient",
+    "_find_cycles",
+    "classify",
+    "detect_domains",
+    "dfs",
+    "estimate_reasoning_depth",
+    "is_high_stakes",
+    "is_trivial",
+    "main",
+    "requires_verification",
+    "validate_acyclic",
+    "validate_all",
+    "validate_clustering",
+    "validate_connectivity",
+    "validate_density",
+    "validate_krog"
+  ],
+  "hard_deps": [
+    "abduct",
+    "agency",
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "non-linear",
+    "ontolog",
+    "reason",
+    "think"
+  ],
+  "soft_refs": [
+    "lambda"
+  ],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 655,
+    "hard_degree": 10,
+    "soft_degree": 1,
+    "cluster": "30_tools_and_aux"
+  }
+}

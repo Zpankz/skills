@@ -1,0 +1,14 @@
+{
+  "name": "meta",
+  "description": "Use this skill to emit and validate deterministic governance artifacts for the local .index corpus.",
+  "platform": "claude",
+  "invocation": {
+    "command": "python .index/interfaces/emit_index.py",
+    "entry": ".index/interfaces/emit_index.py"
+  },
+  "triggers": [
+    "emit .index artifacts",
+    "validate governance outputs",
+    "recompute control-plane index"
+  ]
+}

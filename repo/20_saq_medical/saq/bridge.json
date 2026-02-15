@@ -1,0 +1,31 @@
+{
+  "called_by": [
+    "cicm-saq-rubric",
+    "lambda",
+    "pex",
+    "saq-rubric",
+    "saq-rubric-metaschema",
+    "saq-schema",
+    "saq-template-2",
+    "telos"
+  ],
+  "canonical_path": "repo/20_saq_medical/saq.skill",
+  "category": "20_saq_medical",
+  "depends_on": [
+    "constraints"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [],
+  "id": "saq",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 240,
+    "word_count": 727
+  },
+  "soft_refs": [
+    "constraints"
+  ],
+  "version": "0.1.0"
+}

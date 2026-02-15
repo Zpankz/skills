@@ -1,0 +1,42 @@
+{
+  "id": "cicm-saq-rubric",
+  "name": "cicm-saq-rubric",
+  "category": "skill",
+  "triggers": [
+    "**Trigger**: \"check my answer\", quick review, time-pressured",
+    "**Trigger**: \"validate SAQ\", \"predict marks\", tier analysis",
+    "**Trigger**: \"full analysis\", \"recovery plan\", optimization request"
+  ],
+  "capabilities": [
+    "FailureMode",
+    "RuleResult",
+    "Severity",
+    "Tier",
+    "ValidationReport",
+    "detect_failure_modes",
+    "format_output",
+    "format_report",
+    "parse_response",
+    "predict_tier",
+    "quick_check",
+    "validate",
+    "validate_rules"
+  ],
+  "hard_deps": [
+    "lambda",
+    "reason",
+    "saq",
+    "saq-rubric",
+    "saq-rubric-metaschema"
+  ],
+  "soft_refs": [],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 444,
+    "hard_degree": 5,
+    "soft_degree": 0,
+    "cluster": "20_saq_medical"
+  }
+}

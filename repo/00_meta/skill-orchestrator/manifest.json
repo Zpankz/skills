@@ -1,0 +1,48 @@
+{
+  "id": "skill-orchestrator",
+  "name": "skill-orchestrator",
+  "category": "skill",
+  "triggers": [
+    "Triggers on 'orchestrate skills', 'skill ecosystem', 'integrate skills', 'compose",
+    "- triggers: [\"Use when...\", patterns]",
+    "trigger: \"session_start OR before_any_task\"",
+    "trigger: \"chain skills OR compose workflow\"",
+    "trigger: \"create skill OR new skill\"",
+    "trigger: \"validate OR audit OR optimize\"",
+    "trigger: \"post_task_completion OR improve skill\""
+  ],
+  "capabilities": [
+    "categorize_skills",
+    "compute_topology_metrics",
+    "determine_level",
+    "discover_skills",
+    "extract_capabilities",
+    "extract_integration_points",
+    "extract_interfaces",
+    "main",
+    "parse_yaml_frontmatter",
+    "scan_skill_directory"
+  ],
+  "hard_deps": [
+    "agency",
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "skill-composer",
+    "skill-optimiser",
+    "skill-protocol",
+    "skill-updater",
+    "think"
+  ],
+  "soft_refs": [],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 512,
+    "hard_degree": 10,
+    "soft_degree": 0,
+    "cluster": "00_meta"
+  }
+}

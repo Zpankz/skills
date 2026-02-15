@@ -1,0 +1,25 @@
+{
+  "called_by": [
+    "skill-composer",
+    "skill-orchestrator",
+    "skill-protocol",
+    "skill-updater"
+  ],
+  "canonical_path": "repo/00_meta/skill-optimiser.skill",
+  "category": "00_meta",
+  "depends_on": [],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "skill-optimiser/scripts/optimise.py"
+  ],
+  "hard_deps": [],
+  "id": "skill-optimiser",
+  "outputs": [],
+  "quality": {
+    "script_count": 1,
+    "tokens": 177,
+    "word_count": 492
+  },
+  "soft_refs": [],
+  "version": "0.1.0"
+}

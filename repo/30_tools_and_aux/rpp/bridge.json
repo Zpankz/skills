@@ -1,0 +1,34 @@
+{
+  "called_by": [
+    "agency",
+    "unifying-graph-analytics"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/rpp.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "abduct",
+    "constraints",
+    "graph"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "rpp/scripts/pareto_extract.py",
+    "rpp/scripts/rpp_generator.py",
+    "rpp/scripts/topology_check.py",
+    "rpp/scripts/validate_ratios.py"
+  ],
+  "hard_deps": [],
+  "id": "rpp",
+  "outputs": [],
+  "quality": {
+    "script_count": 4,
+    "tokens": 148,
+    "word_count": 577
+  },
+  "soft_refs": [
+    "abduct",
+    "constraints",
+    "graph"
+  ],
+  "version": "0.1.0"
+}

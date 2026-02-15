@@ -1,0 +1,43 @@
+{
+  "called_by": [
+    "cicm-saq-rubric",
+    "ontolog",
+    "skill-composer",
+    "unifying-graph-analytics",
+    "urf"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/lambda.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "reason",
+    "saq",
+    "think",
+    "urf"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "reason",
+    "saq",
+    "think"
+  ],
+  "id": "lambda",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 195,
+    "word_count": 626
+  },
+  "soft_refs": [
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "urf"
+  ],
+  "version": "0.1.0"
+}

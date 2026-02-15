@@ -1,0 +1,7 @@
+source,target,score
+critique,lambda,0.25
+skill-optimiser,system-skill,0.25
+skill-composer,skill-protocol,0.1875
+compound-learning,critique,0.1818
+compound-learning,learn,0.1538
+graph,rpp,0.1538

@@ -1,0 +1,23 @@
+{
+  "called_by": [
+    "meta"
+  ],
+  "canonical_path": "repo/00_meta/system-skill.skill",
+  "category": "00_meta",
+  "depends_on": [],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "system-skill/scripts/init_system_skill.py",
+    "system-skill/scripts/validate_system_skill.py"
+  ],
+  "hard_deps": [],
+  "id": "system-skill",
+  "outputs": [],
+  "quality": {
+    "script_count": 2,
+    "tokens": 199,
+    "word_count": 580
+  },
+  "soft_refs": [],
+  "version": "0.1.0"
+}

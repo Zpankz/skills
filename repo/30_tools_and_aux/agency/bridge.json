@@ -1,0 +1,31 @@
+{
+  "called_by": [
+    "constraints",
+    "skill-orchestrator",
+    "urf"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/agency.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "hierarchical-reasoning",
+    "reason",
+    "rpp"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "hierarchical-reasoning",
+    "rpp"
+  ],
+  "id": "agency",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 169,
+    "word_count": 604
+  },
+  "soft_refs": [
+    "reason"
+  ],
+  "version": "0.1.0"
+}

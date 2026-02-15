@@ -1,0 +1,41 @@
+{
+  "called_by": [
+    "compound-learning",
+    "graph-reasoning",
+    "lambda",
+    "process-goals-prompting",
+    "saq-template-2",
+    "skill-orchestrator",
+    "skill-protocol",
+    "skill-updater",
+    "urf"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/critique.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "constraints",
+    "graph",
+    "hierarchical-reasoning",
+    "non-linear",
+    "think"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "graph",
+    "non-linear"
+  ],
+  "id": "critique",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 244,
+    "word_count": 658
+  },
+  "soft_refs": [
+    "constraints",
+    "hierarchical-reasoning",
+    "think"
+  ],
+  "version": "0.1.0"
+}

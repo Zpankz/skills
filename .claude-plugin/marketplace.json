@@ -40,6 +40,33 @@
         "./skills/web-artifacts-builder",
         "./skills/webapp-testing"
       ]
+    },
+    {
+      "name": "meta",
+      "source": "./",
+      "description": "Emit and verify reproducible governance artifacts for local .index artifacts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Context-Engineering"
+      },
+      "category": "developer-tools",
+      "tags": [
+        "skills",
+        "packaging",
+        "graph",
+        "ontology",
+        "governance"
+      ],
+      "keywords": [
+        "agent-skill",
+        "packaging",
+        "skill-corpus",
+        "control-plane"
+      ],
+      "strict": false,
+      "skills": [
+        "./skills/meta"
+      ]
     }
   ]
 }

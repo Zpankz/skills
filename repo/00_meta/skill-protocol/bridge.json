@@ -1,0 +1,44 @@
+{
+  "called_by": [
+    "meta",
+    "skill-orchestrator"
+  ],
+  "canonical_path": "repo/00_meta/skill-protocol.skill",
+  "category": "00_meta",
+  "depends_on": [
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "non-linear",
+    "reason",
+    "skill-composer",
+    "skill-optimiser",
+    "skill-orchestrator",
+    "skill-updater",
+    "think"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "skill-updater"
+  ],
+  "id": "skill-protocol",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 166,
+    "word_count": 530
+  },
+  "soft_refs": [
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "non-linear",
+    "reason",
+    "skill-composer",
+    "skill-optimiser",
+    "skill-orchestrator",
+    "think"
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "called_by": [
+    "meta",
+    "skill-composer",
+    "skill-protocol"
+  ],
+  "canonical_path": "repo/00_meta/skill-orchestrator.skill",
+  "category": "00_meta",
+  "depends_on": [
+    "agency",
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "skill-composer",
+    "skill-optimiser",
+    "skill-protocol",
+    "skill-updater",
+    "think"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "skill-orchestrator/scripts/discover_skills.py"
+  ],
+  "hard_deps": [
+    "agency",
+    "constraints",
+    "skill-protocol"
+  ],
+  "id": "skill-orchestrator",
+  "outputs": [],
+  "quality": {
+    "script_count": 1,
+    "tokens": 163,
+    "word_count": 512
+  },
+  "soft_refs": [
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "skill-composer",
+    "skill-optimiser",
+    "skill-updater",
+    "think"
+  ],
+  "version": "0.1.0"
+}

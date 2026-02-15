@@ -1,0 +1,16 @@
+{
+  "name": "context-engineering-meta",
+  "version": "0.1.0",
+  "description": "Context-Engineering skill corpus plugin for deterministic metadata emission and governance indexing.",
+  "author": {
+    "name": "Context-Engineering"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "governance",
+    "graph",
+    "ontology",
+    "control-plane"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "called_by": [
+    "eloquence",
+    "graph-reasoning",
+    "ontolog",
+    "rpp",
+    "urf"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/abduct.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "graph",
+    "non-linear",
+    "obsidian"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "abduct/scripts/abduct.py",
+    "abduct/scripts/core.py",
+    "abduct/scripts/detect.py",
+    "abduct/scripts/graph_analysis.py",
+    "abduct/scripts/nlp_extract.py",
+    "abduct/scripts/refactor.py"
+  ],
+  "hard_deps": [
+    "graph",
+    "non-linear",
+    "obsidian"
+  ],
+  "id": "abduct",
+  "outputs": [],
+  "quality": {
+    "script_count": 6,
+    "tokens": 193,
+    "word_count": 586
+  },
+  "soft_refs": [],
+  "version": "0.1.0"
+}

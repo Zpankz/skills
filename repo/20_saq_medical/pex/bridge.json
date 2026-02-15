@@ -1,0 +1,27 @@
+{
+  "called_by": [
+    "saq-rubric",
+    "saq-template-2"
+  ],
+  "canonical_path": "repo/20_saq_medical/pex.skill",
+  "category": "20_saq_medical",
+  "depends_on": [
+    "hierarchical-reasoning",
+    "saq"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "hierarchical-reasoning",
+    "saq"
+  ],
+  "id": "pex",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 222,
+    "word_count": 605
+  },
+  "soft_refs": [],
+  "version": "0.1.0"
+}

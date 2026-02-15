@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skill Interface Descriptor",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "triggers",
+    "capabilities",
+    "hard_deps",
+    "soft_refs",
+    "outputs",
+    "inputs",
+    "subgraph_type",
+    "quality"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "triggers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hard_deps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "soft_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "subgraph_type": {
+      "type": "string"
+    },
+    "quality": {
+      "type": "object"
+    }
+  }
+}

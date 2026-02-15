@@ -1,0 +1,51 @@
+{
+  "called_by": [
+    "constraints",
+    "eloquence",
+    "graph-reasoning",
+    "urf"
+  ],
+  "canonical_path": "repo/10_reasoning_core/ontolog.skill",
+  "category": "10_reasoning_core",
+  "depends_on": [
+    "abduct",
+    "constraints",
+    "dspy",
+    "graph",
+    "hierarchical-reasoning",
+    "lambda",
+    "reason"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "ontolog/agents/encoder.py",
+    "ontolog/agents/orchestrator.py",
+    "ontolog/agents/resolver.py",
+    "ontolog/agents/synthesizer.py",
+    "ontolog/agents/targeter.py",
+    "ontolog/agents/topologist.py",
+    "ontolog/agents/types.py",
+    "ontolog/agents/validator.py",
+    "ontolog/scripts/reason.py",
+    "ontolog/scripts/validate.py"
+  ],
+  "hard_deps": [
+    "reason"
+  ],
+  "id": "ontolog",
+  "outputs": [],
+  "quality": {
+    "script_count": 10,
+    "tokens": 165,
+    "word_count": 494
+  },
+  "soft_refs": [
+    "abduct",
+    "constraints",
+    "dspy",
+    "graph",
+    "hierarchical-reasoning",
+    "lambda"
+  ],
+  "version": "0.1.0"
+}

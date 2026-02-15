@@ -1,0 +1,45 @@
+{
+  "called_by": [
+    "abduct",
+    "compound-learning",
+    "constraints",
+    "critique",
+    "dspy",
+    "eloquence",
+    "graph-reasoning",
+    "lambda",
+    "non-linear",
+    "ontolog",
+    "reason",
+    "rpp",
+    "skill-composer",
+    "skill-orchestrator",
+    "skill-protocol",
+    "skill-updater",
+    "unifying-graph-analytics",
+    "urf"
+  ],
+  "canonical_path": "repo/10_reasoning_core/graph.skill",
+  "category": "10_reasoning_core",
+  "depends_on": [
+    "hierarchical-reasoning"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "graph/scripts/compress_graph.py",
+    "graph/scripts/topology_metrics.py",
+    "graph/scripts/verify_compression.py"
+  ],
+  "hard_deps": [
+    "hierarchical-reasoning"
+  ],
+  "id": "graph",
+  "outputs": [],
+  "quality": {
+    "script_count": 3,
+    "tokens": 277,
+    "word_count": 674
+  },
+  "soft_refs": [],
+  "version": "0.1.0"
+}

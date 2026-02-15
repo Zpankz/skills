@@ -1,0 +1,29 @@
+{
+  "name": "meta",
+  "description": "Emit and validate skill-corpus governance outputs with control-plane integrity checks.",
+  "platform": "codex",
+  "entry_points": [
+    ".index/interfaces/emit_index.py"
+  ],
+  "schema": {
+    "inputs": [
+      ".index/main_index_payload.json",
+      ".index/main_index.yaml",
+      ".index/skill_graph.json",
+      ".index/clustered_graph.json",
+      ".index/control_ontology.json",
+      ".index/control_ontology.schema.json",
+      ".index/hyperedges.json",
+      ".index/bridge_index.json",
+      ".index/bridge_candidates.csv",
+    ".index/quality_report.md",
+    ".index/processing_report.md"
+    ],
+    "outputs": [
+      ".index/main_index.yaml",
+      ".index/main_index_payload.json",
+      ".index/quality_report.md",
+      ".index/processing_report.md"
+    ]
+  }
+}

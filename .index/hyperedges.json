@@ -1,0 +1,61 @@
+[
+  {
+    "confidence": 0.96,
+    "id": "H1",
+    "input_nodes": [
+      "cicm-saq-rubric",
+      "saq-schema",
+      "saq-rubric-metaschema",
+      "pex",
+      "constraints"
+    ],
+    "kind": "hyperedge",
+    "name": "SAQ_PIPELINE_V2",
+    "notes": "Core SAQ preparation and evaluation pipeline. Inputs are planning/evaluation artifacts; outputs are schema/rubric-aware generated responses and validation.",
+    "output_nodes": [
+      "saq-rubric",
+      "saq",
+      "saq-template-2"
+    ],
+    "type": "workflow"
+  },
+  {
+    "confidence": 0.92,
+    "id": "H2",
+    "input_nodes": [
+      "constraints",
+      "graph",
+      "hierarchical-reasoning"
+    ],
+    "kind": "hyperedge",
+    "name": "CORE_REASONING_ORCHESTRATION",
+    "notes": "Cross-layer reasoning synthesis path where constraints and graph structure constrain orchestration modules.",
+    "output_nodes": [
+      "abduct",
+      "non-linear",
+      "ontolog",
+      "lambda",
+      "critique"
+    ],
+    "type": "orchestration"
+  },
+  {
+    "confidence": 0.88,
+    "id": "H3",
+    "input_nodes": [
+      "skill-updater",
+      "skill-composer",
+      "skill-protocol",
+      "skill-orchestrator",
+      "skill-optimiser"
+    ],
+    "kind": "hyperedge",
+    "name": "META_ECOSYSTEM_CONNECT",
+    "notes": "Meta orchestration and governance bootstrap loop for ecosystem maintenance and improvement.",
+    "output_nodes": [
+      "skill-orchestrator",
+      "skill-composer"
+    ],
+    "type": "meta-governance"
+  }
+]

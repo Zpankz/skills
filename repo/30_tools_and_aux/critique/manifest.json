@@ -1,0 +1,27 @@
+{
+  "id": "critique",
+  "name": "critique",
+  "category": "skill",
+  "triggers": [
+    "### Manual Triggers",
+    "| Trigger | Mode | Description |"
+  ],
+  "capabilities": [],
+  "hard_deps": [
+    "constraints",
+    "graph",
+    "hierarchical-reasoning",
+    "non-linear",
+    "think"
+  ],
+  "soft_refs": [],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 658,
+    "hard_degree": 5,
+    "soft_degree": 0,
+    "cluster": "30_tools_and_aux"
+  }
+}

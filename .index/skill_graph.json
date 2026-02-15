@@ -1,0 +1,2846 @@
+{
+  "canonical_nodes": [
+    "abduct",
+    "agency",
+    "cicm-saq-rubric",
+    "compound-learning",
+    "constraints",
+    "critique",
+    "dspy",
+    "eloquence",
+    "graph",
+    "graph-reasoning",
+    "hierarchical-reasoning",
+    "lambda",
+    "learn",
+    "meta",
+    "non-linear",
+    "obsidian",
+    "ontolog",
+    "pex",
+    "process-goals-prompting",
+    "reason",
+    "rpp",
+    "saq",
+    "saq-rubric",
+    "saq-rubric-metaschema",
+    "saq-schema",
+    "saq-template-2",
+    "skill-composer",
+    "skill-optimiser",
+    "skill-orchestrator",
+    "skill-protocol",
+    "skill-updater",
+    "system-skill",
+    "telos",
+    "think",
+    "unifying-graph-analytics",
+    "urf"
+  ],
+  "clusters": {
+    "00_meta": [
+      "meta",
+      "skill-composer",
+      "skill-optimiser",
+      "skill-orchestrator",
+      "skill-protocol",
+      "skill-updater",
+      "system-skill"
+    ],
+    "10_reasoning_core": [
+      "constraints",
+      "graph-reasoning",
+      "graph",
+      "hierarchical-reasoning",
+      "ontolog",
+      "unifying-graph-analytics"
+    ],
+    "20_saq_medical": [
+      "cicm-saq-rubric",
+      "pex",
+      "saq-rubric-metaschema",
+      "saq-rubric",
+      "saq-schema",
+      "saq-template-2",
+      "saq",
+      "telos"
+    ],
+    "30_tools_and_aux": [
+      "abduct",
+      "agency",
+      "compound-learning",
+      "critique",
+      "dspy",
+      "eloquence",
+      "lambda",
+      "learn",
+      "non-linear",
+      "obsidian",
+      "process-goals-prompting",
+      "reason",
+      "rpp",
+      "think",
+      "urf"
+    ]
+  },
+  "condensed": {
+    "condensed_edge_count": 26,
+    "condensed_node_count": 19,
+    "edges": [
+      {
+        "from": "C1",
+        "to": "C0"
+      },
+      {
+        "from": "C10",
+        "to": "C0"
+      },
+      {
+        "from": "C10",
+        "to": "C9"
+      },
+      {
+        "from": "C12",
+        "to": "C11"
+      },
+      {
+        "from": "C12",
+        "to": "C9"
+      },
+      {
+        "from": "C13",
+        "to": "C0"
+      },
+      {
+        "from": "C14",
+        "to": "C0"
+      },
+      {
+        "from": "C15",
+        "to": "C0"
+      },
+      {
+        "from": "C15",
+        "to": "C1"
+      },
+      {
+        "from": "C16",
+        "to": "C0"
+      },
+      {
+        "from": "C17",
+        "to": "C0"
+      },
+      {
+        "from": "C18",
+        "to": "C0"
+      },
+      {
+        "from": "C2",
+        "to": "C0"
+      },
+      {
+        "from": "C2",
+        "to": "C1"
+      },
+      {
+        "from": "C3",
+        "to": "C0"
+      },
+      {
+        "from": "C4",
+        "to": "C0"
+      },
+      {
+        "from": "C4",
+        "to": "C2"
+      },
+      {
+        "from": "C4",
+        "to": "C3"
+      },
+      {
+        "from": "C6",
+        "to": "C0"
+      },
+      {
+        "from": "C6",
+        "to": "C5"
+      },
+      {
+        "from": "C7",
+        "to": "C0"
+      },
+      {
+        "from": "C7",
+        "to": "C6"
+      },
+      {
+        "from": "C8",
+        "to": "C0"
+      },
+      {
+        "from": "C9",
+        "to": "C0"
+      },
+      {
+        "from": "C9",
+        "to": "C5"
+      },
+      {
+        "from": "C9",
+        "to": "C6"
+      }
+    ],
+    "node_map": {
+      "C0": {
+        "members": [
+          "abduct",
+          "agency",
+          "constraints",
+          "critique",
+          "dspy",
+          "graph",
+          "hierarchical-reasoning",
+          "lambda",
+          "learn",
+          "non-linear",
+          "obsidian",
+          "ontolog",
+          "reason",
+          "rpp",
+          "saq",
+          "think"
+        ],
+        "size": 16
+      },
+      "C1": {
+        "members": [
+          "pex"
+        ],
+        "size": 1
+      },
+      "C10": {
+        "members": [
+          "graph-reasoning"
+        ],
+        "size": 1
+      },
+      "C11": {
+        "members": [
+          "system-skill"
+        ],
+        "size": 1
+      },
+      "C12": {
+        "members": [
+          "meta"
+        ],
+        "size": 1
+      },
+      "C13": {
+        "members": [
+          "process-goals-prompting"
+        ],
+        "size": 1
+      },
+      "C14": {
+        "members": [
+          "saq-schema"
+        ],
+        "size": 1
+      },
+      "C15": {
+        "members": [
+          "saq-template-2"
+        ],
+        "size": 1
+      },
+      "C16": {
+        "members": [
+          "telos"
+        ],
+        "size": 1
+      },
+      "C17": {
+        "members": [
+          "unifying-graph-analytics"
+        ],
+        "size": 1
+      },
+      "C18": {
+        "members": [
+          "urf"
+        ],
+        "size": 1
+      },
+      "C2": {
+        "members": [
+          "saq-rubric"
+        ],
+        "size": 1
+      },
+      "C3": {
+        "members": [
+          "saq-rubric-metaschema"
+        ],
+        "size": 1
+      },
+      "C4": {
+        "members": [
+          "cicm-saq-rubric"
+        ],
+        "size": 1
+      },
+      "C5": {
+        "members": [
+          "skill-optimiser"
+        ],
+        "size": 1
+      },
+      "C6": {
+        "members": [
+          "skill-updater"
+        ],
+        "size": 1
+      },
+      "C7": {
+        "members": [
+          "compound-learning"
+        ],
+        "size": 1
+      },
+      "C8": {
+        "members": [
+          "eloquence"
+        ],
+        "size": 1
+      },
+      "C9": {
+        "members": [
+          "skill-composer",
+          "skill-orchestrator",
+          "skill-protocol"
+        ],
+        "size": 3
+      }
+    }
+  },
+  "condensed_dag": {
+    "condensed_edge_count": 59,
+    "condensed_node_count": 36,
+    "edges": [
+      {
+        "from": "C1",
+        "to": "C0"
+      },
+      {
+        "from": "C10",
+        "to": "C0"
+      },
+      {
+        "from": "C10",
+        "to": "C3"
+      },
+      {
+        "from": "C10",
+        "to": "C9"
+      },
+      {
+        "from": "C11",
+        "to": "C1"
+      },
+      {
+        "from": "C11",
+        "to": "C9"
+      },
+      {
+        "from": "C12",
+        "to": "C11"
+      },
+      {
+        "from": "C13",
+        "to": "C0"
+      },
+      {
+        "from": "C14",
+        "to": "C13"
+      },
+      {
+        "from": "C14",
+        "to": "C2"
+      },
+      {
+        "from": "C15",
+        "to": "C14"
+      },
+      {
+        "from": "C15",
+        "to": "C9"
+      },
+      {
+        "from": "C16",
+        "to": "C10"
+      },
+      {
+        "from": "C16",
+        "to": "C12"
+      },
+      {
+        "from": "C16",
+        "to": "C15"
+      },
+      {
+        "from": "C17",
+        "to": "C3"
+      },
+      {
+        "from": "C18",
+        "to": "C2"
+      },
+      {
+        "from": "C18",
+        "to": "C4"
+      },
+      {
+        "from": "C2",
+        "to": "C1"
+      },
+      {
+        "from": "C20",
+        "to": "C18"
+      },
+      {
+        "from": "C20",
+        "to": "C19"
+      },
+      {
+        "from": "C21",
+        "to": "C14"
+      },
+      {
+        "from": "C21",
+        "to": "C17"
+      },
+      {
+        "from": "C21",
+        "to": "C20"
+      },
+      {
+        "from": "C22",
+        "to": "C2"
+      },
+      {
+        "from": "C23",
+        "to": "C13"
+      },
+      {
+        "from": "C23",
+        "to": "C6"
+      },
+      {
+        "from": "C24",
+        "to": "C20"
+      },
+      {
+        "from": "C25",
+        "to": "C14"
+      },
+      {
+        "from": "C25",
+        "to": "C24"
+      },
+      {
+        "from": "C25",
+        "to": "C8"
+      },
+      {
+        "from": "C26",
+        "to": "C10"
+      },
+      {
+        "from": "C26",
+        "to": "C25"
+      },
+      {
+        "from": "C27",
+        "to": "C26"
+      },
+      {
+        "from": "C27",
+        "to": "C6"
+      },
+      {
+        "from": "C29",
+        "to": "C25"
+      },
+      {
+        "from": "C29",
+        "to": "C28"
+      },
+      {
+        "from": "C30",
+        "to": "C14"
+      },
+      {
+        "from": "C30",
+        "to": "C18"
+      },
+      {
+        "from": "C30",
+        "to": "C22"
+      },
+      {
+        "from": "C31",
+        "to": "C9"
+      },
+      {
+        "from": "C32",
+        "to": "C11"
+      },
+      {
+        "from": "C32",
+        "to": "C18"
+      },
+      {
+        "from": "C33",
+        "to": "C14"
+      },
+      {
+        "from": "C33",
+        "to": "C9"
+      },
+      {
+        "from": "C34",
+        "to": "C10"
+      },
+      {
+        "from": "C34",
+        "to": "C14"
+      },
+      {
+        "from": "C34",
+        "to": "C7"
+      },
+      {
+        "from": "C35",
+        "to": "C14"
+      },
+      {
+        "from": "C35",
+        "to": "C18"
+      },
+      {
+        "from": "C35",
+        "to": "C6"
+      },
+      {
+        "from": "C35",
+        "to": "C8"
+      },
+      {
+        "from": "C4",
+        "to": "C0"
+      },
+      {
+        "from": "C4",
+        "to": "C3"
+      },
+      {
+        "from": "C6",
+        "to": "C2"
+      },
+      {
+        "from": "C6",
+        "to": "C4"
+      },
+      {
+        "from": "C6",
+        "to": "C5"
+      },
+      {
+        "from": "C8",
+        "to": "C1"
+      },
+      {
+        "from": "C8",
+        "to": "C7"
+      }
+    ],
+    "node_map": {
+      "C0": {
+        "members": [
+          "reason"
+        ],
+        "size": 1
+      },
+      "C1": {
+        "members": [
+          "hierarchical-reasoning"
+        ],
+        "size": 1
+      },
+      "C10": {
+        "members": [
+          "lambda"
+        ],
+        "size": 1
+      },
+      "C11": {
+        "members": [
+          "pex"
+        ],
+        "size": 1
+      },
+      "C12": {
+        "members": [
+          "saq-rubric"
+        ],
+        "size": 1
+      },
+      "C13": {
+        "members": [
+          "ontolog"
+        ],
+        "size": 1
+      },
+      "C14": {
+        "members": [
+          "constraints"
+        ],
+        "size": 1
+      },
+      "C15": {
+        "members": [
+          "saq-rubric-metaschema"
+        ],
+        "size": 1
+      },
+      "C16": {
+        "members": [
+          "cicm-saq-rubric"
+        ],
+        "size": 1
+      },
+      "C17": {
+        "members": [
+          "learn"
+        ],
+        "size": 1
+      },
+      "C18": {
+        "members": [
+          "critique"
+        ],
+        "size": 1
+      },
+      "C19": {
+        "members": [
+          "skill-optimiser"
+        ],
+        "size": 1
+      },
+      "C2": {
+        "members": [
+          "graph"
+        ],
+        "size": 1
+      },
+      "C20": {
+        "members": [
+          "skill-updater"
+        ],
+        "size": 1
+      },
+      "C21": {
+        "members": [
+          "compound-learning"
+        ],
+        "size": 1
+      },
+      "C22": {
+        "members": [
+          "dspy"
+        ],
+        "size": 1
+      },
+      "C23": {
+        "members": [
+          "eloquence"
+        ],
+        "size": 1
+      },
+      "C24": {
+        "members": [
+          "skill-protocol"
+        ],
+        "size": 1
+      },
+      "C25": {
+        "members": [
+          "skill-orchestrator"
+        ],
+        "size": 1
+      },
+      "C26": {
+        "members": [
+          "skill-composer"
+        ],
+        "size": 1
+      },
+      "C27": {
+        "members": [
+          "graph-reasoning"
+        ],
+        "size": 1
+      },
+      "C28": {
+        "members": [
+          "system-skill"
+        ],
+        "size": 1
+      },
+      "C29": {
+        "members": [
+          "meta"
+        ],
+        "size": 1
+      },
+      "C3": {
+        "members": [
+          "think"
+        ],
+        "size": 1
+      },
+      "C30": {
+        "members": [
+          "process-goals-prompting"
+        ],
+        "size": 1
+      },
+      "C31": {
+        "members": [
+          "saq-schema"
+        ],
+        "size": 1
+      },
+      "C32": {
+        "members": [
+          "saq-template-2"
+        ],
+        "size": 1
+      },
+      "C33": {
+        "members": [
+          "telos"
+        ],
+        "size": 1
+      },
+      "C34": {
+        "members": [
+          "unifying-graph-analytics"
+        ],
+        "size": 1
+      },
+      "C35": {
+        "members": [
+          "urf"
+        ],
+        "size": 1
+      },
+      "C4": {
+        "members": [
+          "non-linear"
+        ],
+        "size": 1
+      },
+      "C5": {
+        "members": [
+          "obsidian"
+        ],
+        "size": 1
+      },
+      "C6": {
+        "members": [
+          "abduct"
+        ],
+        "size": 1
+      },
+      "C7": {
+        "members": [
+          "rpp"
+        ],
+        "size": 1
+      },
+      "C8": {
+        "members": [
+          "agency"
+        ],
+        "size": 1
+      },
+      "C9": {
+        "members": [
+          "saq"
+        ],
+        "size": 1
+      }
+    }
+  },
+  "demotion_plan": [
+    {
+      "from": "skill-orchestrator",
+      "reason": "scc_dag_order",
+      "to": "skill-composer"
+    },
+    {
+      "from": "skill-protocol",
+      "reason": "scc_dag_order",
+      "to": "skill-composer"
+    },
+    {
+      "from": "skill-protocol",
+      "reason": "scc_dag_order",
+      "to": "skill-orchestrator"
+    },
+    {
+      "from": "constraints",
+      "reason": "scc_dag_order",
+      "to": "agency"
+    },
+    {
+      "from": "hierarchical-reasoning",
+      "reason": "scc_dag_order",
+      "to": "constraints"
+    },
+    {
+      "from": "ontolog",
+      "reason": "scc_dag_order",
+      "to": "abduct"
+    },
+    {
+      "from": "ontolog",
+      "reason": "scc_dag_order",
+      "to": "constraints"
+    },
+    {
+      "from": "ontolog",
+      "reason": "scc_dag_order",
+      "to": "dspy"
+    },
+    {
+      "from": "ontolog",
+      "reason": "scc_dag_order",
+      "to": "graph"
+    },
+    {
+      "from": "ontolog",
+      "reason": "scc_dag_order",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "ontolog",
+      "reason": "scc_dag_order",
+      "to": "lambda"
+    },
+    {
+      "from": "saq",
+      "reason": "scc_dag_order",
+      "to": "constraints"
+    },
+    {
+      "from": "critique",
+      "reason": "scc_dag_order",
+      "to": "constraints"
+    },
+    {
+      "from": "lambda",
+      "reason": "scc_dag_order",
+      "to": "constraints"
+    },
+    {
+      "from": "lambda",
+      "reason": "scc_dag_order",
+      "to": "critique"
+    },
+    {
+      "from": "lambda",
+      "reason": "scc_dag_order",
+      "to": "graph"
+    },
+    {
+      "from": "lambda",
+      "reason": "scc_dag_order",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "non-linear",
+      "reason": "scc_dag_order",
+      "to": "graph"
+    },
+    {
+      "from": "obsidian",
+      "reason": "scc_dag_order",
+      "to": "learn"
+    },
+    {
+      "from": "reason",
+      "reason": "scc_dag_order",
+      "to": "graph"
+    },
+    {
+      "from": "rpp",
+      "reason": "scc_dag_order",
+      "to": "abduct"
+    },
+    {
+      "from": "rpp",
+      "reason": "scc_dag_order",
+      "to": "constraints"
+    },
+    {
+      "from": "rpp",
+      "reason": "scc_dag_order",
+      "to": "graph"
+    },
+    {
+      "from": "think",
+      "reason": "scc_dag_order",
+      "to": "non-linear"
+    },
+    {
+      "from": "agency",
+      "reason": "transitive_reduction",
+      "to": "reason"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "reason": "transitive_reduction",
+      "to": "reason"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "reason": "transitive_reduction",
+      "to": "saq"
+    },
+    {
+      "from": "compound-learning",
+      "reason": "transitive_reduction",
+      "to": "critique"
+    },
+    {
+      "from": "compound-learning",
+      "reason": "transitive_reduction",
+      "to": "graph"
+    },
+    {
+      "from": "compound-learning",
+      "reason": "transitive_reduction",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "compound-learning",
+      "reason": "transitive_reduction",
+      "to": "reason"
+    },
+    {
+      "from": "compound-learning",
+      "reason": "transitive_reduction",
+      "to": "think"
+    },
+    {
+      "from": "constraints",
+      "reason": "transitive_reduction",
+      "to": "reason"
+    },
+    {
+      "from": "critique",
+      "reason": "transitive_reduction",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "critique",
+      "reason": "transitive_reduction",
+      "to": "think"
+    },
+    {
+      "from": "eloquence",
+      "reason": "transitive_reduction",
+      "to": "graph"
+    },
+    {
+      "from": "graph-reasoning",
+      "reason": "transitive_reduction",
+      "to": "constraints"
+    },
+    {
+      "from": "graph-reasoning",
+      "reason": "transitive_reduction",
+      "to": "critique"
+    },
+    {
+      "from": "graph-reasoning",
+      "reason": "transitive_reduction",
+      "to": "graph"
+    },
+    {
+      "from": "graph-reasoning",
+      "reason": "transitive_reduction",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "graph-reasoning",
+      "reason": "transitive_reduction",
+      "to": "non-linear"
+    },
+    {
+      "from": "graph-reasoning",
+      "reason": "transitive_reduction",
+      "to": "ontolog"
+    },
+    {
+      "from": "graph-reasoning",
+      "reason": "transitive_reduction",
+      "to": "reason"
+    },
+    {
+      "from": "graph-reasoning",
+      "reason": "transitive_reduction",
+      "to": "think"
+    },
+    {
+      "from": "process-goals-prompting",
+      "reason": "transitive_reduction",
+      "to": "think"
+    },
+    {
+      "from": "saq-rubric",
+      "reason": "transitive_reduction",
+      "to": "saq"
+    },
+    {
+      "from": "saq-rubric-metaschema",
+      "reason": "transitive_reduction",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "saq-template-2",
+      "reason": "transitive_reduction",
+      "to": "saq"
+    },
+    {
+      "from": "skill-composer",
+      "reason": "transitive_reduction",
+      "to": "graph"
+    },
+    {
+      "from": "skill-composer",
+      "reason": "transitive_reduction",
+      "to": "skill-optimiser"
+    },
+    {
+      "from": "skill-orchestrator",
+      "reason": "transitive_reduction",
+      "to": "critique"
+    },
+    {
+      "from": "skill-orchestrator",
+      "reason": "transitive_reduction",
+      "to": "graph"
+    },
+    {
+      "from": "skill-orchestrator",
+      "reason": "transitive_reduction",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "skill-orchestrator",
+      "reason": "transitive_reduction",
+      "to": "skill-optimiser"
+    },
+    {
+      "from": "skill-orchestrator",
+      "reason": "transitive_reduction",
+      "to": "skill-updater"
+    },
+    {
+      "from": "skill-orchestrator",
+      "reason": "transitive_reduction",
+      "to": "think"
+    },
+    {
+      "from": "skill-protocol",
+      "reason": "transitive_reduction",
+      "to": "critique"
+    },
+    {
+      "from": "skill-protocol",
+      "reason": "transitive_reduction",
+      "to": "graph"
+    },
+    {
+      "from": "skill-protocol",
+      "reason": "transitive_reduction",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "skill-protocol",
+      "reason": "transitive_reduction",
+      "to": "non-linear"
+    },
+    {
+      "from": "skill-protocol",
+      "reason": "transitive_reduction",
+      "to": "reason"
+    },
+    {
+      "from": "skill-protocol",
+      "reason": "transitive_reduction",
+      "to": "skill-optimiser"
+    },
+    {
+      "from": "skill-protocol",
+      "reason": "transitive_reduction",
+      "to": "think"
+    },
+    {
+      "from": "skill-updater",
+      "reason": "transitive_reduction",
+      "to": "graph"
+    },
+    {
+      "from": "telos",
+      "reason": "transitive_reduction",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "unifying-graph-analytics",
+      "reason": "transitive_reduction",
+      "to": "graph"
+    },
+    {
+      "from": "urf",
+      "reason": "transitive_reduction",
+      "to": "graph"
+    },
+    {
+      "from": "urf",
+      "reason": "transitive_reduction",
+      "to": "hierarchical-reasoning"
+    },
+    {
+      "from": "urf",
+      "reason": "transitive_reduction",
+      "to": "non-linear"
+    },
+    {
+      "from": "urf",
+      "reason": "transitive_reduction",
+      "to": "ontolog"
+    },
+    {
+      "from": "urf",
+      "reason": "transitive_reduction",
+      "to": "reason"
+    },
+    {
+      "from": "urf",
+      "reason": "transitive_reduction",
+      "to": "think"
+    }
+  ],
+  "edge_count": 131,
+  "generated_at": "2026-02-14T17:31:11.390764Z",
+  "hard_edges": [
+    {
+      "from": "meta",
+      "to": "system-skill",
+      "type": "hard_dep"
+    },
+    {
+      "from": "meta",
+      "to": "skill-orchestrator",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-composer",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-composer",
+      "to": "lambda",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-composer",
+      "to": "skill-optimiser",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-composer",
+      "to": "skill-orchestrator",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "agency",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "skill-composer",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "skill-optimiser",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "skill-protocol",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "skill-updater",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "non-linear",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "skill-composer",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "skill-optimiser",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "skill-orchestrator",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "skill-updater",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-updater",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-updater",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-updater",
+      "to": "skill-optimiser",
+      "type": "hard_dep"
+    },
+    {
+      "from": "constraints",
+      "to": "agency",
+      "type": "hard_dep"
+    },
+    {
+      "from": "constraints",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "constraints",
+      "to": "ontolog",
+      "type": "hard_dep"
+    },
+    {
+      "from": "constraints",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "abduct",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "non-linear",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "ontolog",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "skill-composer",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "hierarchical-reasoning",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "hierarchical-reasoning",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "ontolog",
+      "to": "abduct",
+      "type": "hard_dep"
+    },
+    {
+      "from": "ontolog",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "ontolog",
+      "to": "dspy",
+      "type": "hard_dep"
+    },
+    {
+      "from": "ontolog",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "ontolog",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "ontolog",
+      "to": "lambda",
+      "type": "hard_dep"
+    },
+    {
+      "from": "ontolog",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "unifying-graph-analytics",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "unifying-graph-analytics",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "unifying-graph-analytics",
+      "to": "lambda",
+      "type": "hard_dep"
+    },
+    {
+      "from": "unifying-graph-analytics",
+      "to": "rpp",
+      "type": "hard_dep"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "lambda",
+      "type": "hard_dep"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "saq-rubric",
+      "type": "hard_dep"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "saq-rubric-metaschema",
+      "type": "hard_dep"
+    },
+    {
+      "from": "pex",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "pex",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-rubric-metaschema",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-rubric-metaschema",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-rubric-metaschema",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-rubric",
+      "to": "pex",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-rubric",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-schema",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-template-2",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-template-2",
+      "to": "pex",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-template-2",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "telos",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "telos",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "telos",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "abduct",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "abduct",
+      "to": "non-linear",
+      "type": "hard_dep"
+    },
+    {
+      "from": "abduct",
+      "to": "obsidian",
+      "type": "hard_dep"
+    },
+    {
+      "from": "agency",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "agency",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "agency",
+      "to": "rpp",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "learn",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "skill-updater",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "critique",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "critique",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "critique",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "critique",
+      "to": "non-linear",
+      "type": "hard_dep"
+    },
+    {
+      "from": "critique",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "dspy",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "eloquence",
+      "to": "abduct",
+      "type": "hard_dep"
+    },
+    {
+      "from": "eloquence",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "eloquence",
+      "to": "ontolog",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "learn",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "non-linear",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "non-linear",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "non-linear",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "obsidian",
+      "to": "learn",
+      "type": "hard_dep"
+    },
+    {
+      "from": "process-goals-prompting",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "process-goals-prompting",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "process-goals-prompting",
+      "to": "dspy",
+      "type": "hard_dep"
+    },
+    {
+      "from": "process-goals-prompting",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "reason",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "rpp",
+      "to": "abduct",
+      "type": "hard_dep"
+    },
+    {
+      "from": "rpp",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "rpp",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "think",
+      "to": "non-linear",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "abduct",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "agency",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "non-linear",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "ontolog",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "think",
+      "type": "hard_dep"
+    }
+  ],
+  "hard_edges_dag": [
+    {
+      "from": "abduct",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "abduct",
+      "to": "non-linear",
+      "type": "hard_dep"
+    },
+    {
+      "from": "abduct",
+      "to": "obsidian",
+      "type": "hard_dep"
+    },
+    {
+      "from": "agency",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "agency",
+      "to": "rpp",
+      "type": "hard_dep"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "lambda",
+      "type": "hard_dep"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "saq-rubric",
+      "type": "hard_dep"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "saq-rubric-metaschema",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "learn",
+      "type": "hard_dep"
+    },
+    {
+      "from": "compound-learning",
+      "to": "skill-updater",
+      "type": "hard_dep"
+    },
+    {
+      "from": "constraints",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "constraints",
+      "to": "ontolog",
+      "type": "hard_dep"
+    },
+    {
+      "from": "critique",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "critique",
+      "to": "non-linear",
+      "type": "hard_dep"
+    },
+    {
+      "from": "dspy",
+      "to": "graph",
+      "type": "hard_dep"
+    },
+    {
+      "from": "eloquence",
+      "to": "abduct",
+      "type": "hard_dep"
+    },
+    {
+      "from": "eloquence",
+      "to": "ontolog",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "abduct",
+      "type": "hard_dep"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "skill-composer",
+      "type": "hard_dep"
+    },
+    {
+      "from": "hierarchical-reasoning",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "lambda",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "learn",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "meta",
+      "to": "skill-orchestrator",
+      "type": "hard_dep"
+    },
+    {
+      "from": "meta",
+      "to": "system-skill",
+      "type": "hard_dep"
+    },
+    {
+      "from": "non-linear",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "non-linear",
+      "to": "think",
+      "type": "hard_dep"
+    },
+    {
+      "from": "ontolog",
+      "to": "reason",
+      "type": "hard_dep"
+    },
+    {
+      "from": "pex",
+      "to": "hierarchical-reasoning",
+      "type": "hard_dep"
+    },
+    {
+      "from": "pex",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "process-goals-prompting",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "process-goals-prompting",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "process-goals-prompting",
+      "to": "dspy",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-rubric",
+      "to": "pex",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-rubric-metaschema",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-rubric-metaschema",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-schema",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-template-2",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "saq-template-2",
+      "to": "pex",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-composer",
+      "to": "lambda",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-composer",
+      "to": "skill-orchestrator",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "agency",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "skill-protocol",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "skill-updater",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-updater",
+      "to": "critique",
+      "type": "hard_dep"
+    },
+    {
+      "from": "skill-updater",
+      "to": "skill-optimiser",
+      "type": "hard_dep"
+    },
+    {
+      "from": "telos",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "telos",
+      "to": "saq",
+      "type": "hard_dep"
+    },
+    {
+      "from": "unifying-graph-analytics",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "unifying-graph-analytics",
+      "to": "lambda",
+      "type": "hard_dep"
+    },
+    {
+      "from": "unifying-graph-analytics",
+      "to": "rpp",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "abduct",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "agency",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "constraints",
+      "type": "hard_dep"
+    },
+    {
+      "from": "urf",
+      "to": "critique",
+      "type": "hard_dep"
+    }
+  ],
+  "node_count": 36,
+  "scc": {
+    "components": [
+      [
+        "learn",
+        "obsidian",
+        "saq",
+        "think",
+        "non-linear",
+        "critique",
+        "lambda",
+        "dspy",
+        "ontolog",
+        "rpp",
+        "reason",
+        "agency",
+        "constraints",
+        "hierarchical-reasoning",
+        "graph",
+        "abduct"
+      ],
+      [
+        "pex"
+      ],
+      [
+        "saq-rubric"
+      ],
+      [
+        "saq-rubric-metaschema"
+      ],
+      [
+        "cicm-saq-rubric"
+      ],
+      [
+        "skill-optimiser"
+      ],
+      [
+        "skill-updater"
+      ],
+      [
+        "compound-learning"
+      ],
+      [
+        "eloquence"
+      ],
+      [
+        "skill-protocol",
+        "skill-orchestrator",
+        "skill-composer"
+      ],
+      [
+        "graph-reasoning"
+      ],
+      [
+        "system-skill"
+      ],
+      [
+        "meta"
+      ],
+      [
+        "process-goals-prompting"
+      ],
+      [
+        "saq-schema"
+      ],
+      [
+        "saq-template-2"
+      ],
+      [
+        "telos"
+      ],
+      [
+        "unifying-graph-analytics"
+      ],
+      [
+        "urf"
+      ]
+    ],
+    "memberships": {
+      "abduct": 0,
+      "agency": 0,
+      "cicm-saq-rubric": 4,
+      "compound-learning": 7,
+      "constraints": 0,
+      "critique": 0,
+      "dspy": 0,
+      "eloquence": 8,
+      "graph": 0,
+      "graph-reasoning": 10,
+      "hierarchical-reasoning": 0,
+      "lambda": 0,
+      "learn": 0,
+      "meta": 12,
+      "non-linear": 0,
+      "obsidian": 0,
+      "ontolog": 0,
+      "pex": 1,
+      "process-goals-prompting": 13,
+      "reason": 0,
+      "rpp": 0,
+      "saq": 0,
+      "saq-rubric": 2,
+      "saq-rubric-metaschema": 3,
+      "saq-schema": 14,
+      "saq-template-2": 15,
+      "skill-composer": 9,
+      "skill-optimiser": 5,
+      "skill-orchestrator": 9,
+      "skill-protocol": 9,
+      "skill-updater": 6,
+      "system-skill": 11,
+      "telos": 16,
+      "think": 0,
+      "unifying-graph-analytics": 17,
+      "urf": 18
+    }
+  },
+  "scc_dag": {
+    "components": [
+      [
+        "reason"
+      ],
+      [
+        "hierarchical-reasoning"
+      ],
+      [
+        "graph"
+      ],
+      [
+        "think"
+      ],
+      [
+        "non-linear"
+      ],
+      [
+        "obsidian"
+      ],
+      [
+        "abduct"
+      ],
+      [
+        "rpp"
+      ],
+      [
+        "agency"
+      ],
+      [
+        "saq"
+      ],
+      [
+        "lambda"
+      ],
+      [
+        "pex"
+      ],
+      [
+        "saq-rubric"
+      ],
+      [
+        "ontolog"
+      ],
+      [
+        "constraints"
+      ],
+      [
+        "saq-rubric-metaschema"
+      ],
+      [
+        "cicm-saq-rubric"
+      ],
+      [
+        "learn"
+      ],
+      [
+        "critique"
+      ],
+      [
+        "skill-optimiser"
+      ],
+      [
+        "skill-updater"
+      ],
+      [
+        "compound-learning"
+      ],
+      [
+        "dspy"
+      ],
+      [
+        "eloquence"
+      ],
+      [
+        "skill-protocol"
+      ],
+      [
+        "skill-orchestrator"
+      ],
+      [
+        "skill-composer"
+      ],
+      [
+        "graph-reasoning"
+      ],
+      [
+        "system-skill"
+      ],
+      [
+        "meta"
+      ],
+      [
+        "process-goals-prompting"
+      ],
+      [
+        "saq-schema"
+      ],
+      [
+        "saq-template-2"
+      ],
+      [
+        "telos"
+      ],
+      [
+        "unifying-graph-analytics"
+      ],
+      [
+        "urf"
+      ]
+    ],
+    "memberships": {
+      "abduct": 6,
+      "agency": 8,
+      "cicm-saq-rubric": 16,
+      "compound-learning": 21,
+      "constraints": 14,
+      "critique": 18,
+      "dspy": 22,
+      "eloquence": 23,
+      "graph": 2,
+      "graph-reasoning": 27,
+      "hierarchical-reasoning": 1,
+      "lambda": 10,
+      "learn": 17,
+      "meta": 29,
+      "non-linear": 4,
+      "obsidian": 5,
+      "ontolog": 13,
+      "pex": 11,
+      "process-goals-prompting": 30,
+      "reason": 0,
+      "rpp": 7,
+      "saq": 9,
+      "saq-rubric": 12,
+      "saq-rubric-metaschema": 15,
+      "saq-schema": 31,
+      "saq-template-2": 32,
+      "skill-composer": 26,
+      "skill-optimiser": 19,
+      "skill-orchestrator": 25,
+      "skill-protocol": 24,
+      "skill-updater": 20,
+      "system-skill": 28,
+      "telos": 33,
+      "think": 3,
+      "unifying-graph-analytics": 34,
+      "urf": 35
+    }
+  },
+  "scc_summary": {
+    "acyclic_ratio": 0.4722,
+    "hard_dag_acyclic_ratio": 1.0,
+    "nodes": 36,
+    "nontrivial_components": 2,
+    "nontrivial_members": [
+      "abduct",
+      "agency",
+      "constraints",
+      "critique",
+      "dspy",
+      "graph",
+      "hierarchical-reasoning",
+      "lambda",
+      "learn",
+      "non-linear",
+      "obsidian",
+      "ontolog",
+      "reason",
+      "rpp",
+      "saq",
+      "skill-composer",
+      "skill-orchestrator",
+      "skill-protocol",
+      "think"
+    ],
+    "nontrivial_node_count": 19
+  },
+  "soft_edges": [
+    {
+      "from": "meta",
+      "to": "skill-protocol",
+      "type": "soft_ref"
+    },
+    {
+      "from": "meta",
+      "to": "skill-updater",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-rubric-metaschema",
+      "to": "saq-rubric",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-rubric",
+      "to": "saq-rubric-metaschema",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-rubric",
+      "to": "saq-template-2",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-template-2",
+      "to": "saq-rubric",
+      "type": "soft_ref"
+    },
+    {
+      "from": "lambda",
+      "to": "urf",
+      "type": "soft_ref"
+    },
+    {
+      "from": "urf",
+      "to": "lambda",
+      "type": "soft_ref"
+    }
+  ],
+  "soft_edges_augmented": [
+    {
+      "from": "agency",
+      "to": "reason",
+      "type": "soft_ref"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "reason",
+      "type": "soft_ref"
+    },
+    {
+      "from": "cicm-saq-rubric",
+      "to": "saq",
+      "type": "soft_ref"
+    },
+    {
+      "from": "compound-learning",
+      "to": "critique",
+      "type": "soft_ref"
+    },
+    {
+      "from": "compound-learning",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "compound-learning",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "compound-learning",
+      "to": "reason",
+      "type": "soft_ref"
+    },
+    {
+      "from": "compound-learning",
+      "to": "think",
+      "type": "soft_ref"
+    },
+    {
+      "from": "constraints",
+      "to": "agency",
+      "type": "soft_ref"
+    },
+    {
+      "from": "constraints",
+      "to": "reason",
+      "type": "soft_ref"
+    },
+    {
+      "from": "critique",
+      "to": "constraints",
+      "type": "soft_ref"
+    },
+    {
+      "from": "critique",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "critique",
+      "to": "think",
+      "type": "soft_ref"
+    },
+    {
+      "from": "eloquence",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "constraints",
+      "type": "soft_ref"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "critique",
+      "type": "soft_ref"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "non-linear",
+      "type": "soft_ref"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "ontolog",
+      "type": "soft_ref"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "reason",
+      "type": "soft_ref"
+    },
+    {
+      "from": "graph-reasoning",
+      "to": "think",
+      "type": "soft_ref"
+    },
+    {
+      "from": "hierarchical-reasoning",
+      "to": "constraints",
+      "type": "soft_ref"
+    },
+    {
+      "from": "lambda",
+      "to": "constraints",
+      "type": "soft_ref"
+    },
+    {
+      "from": "lambda",
+      "to": "critique",
+      "type": "soft_ref"
+    },
+    {
+      "from": "lambda",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "lambda",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "lambda",
+      "to": "urf",
+      "type": "soft_ref"
+    },
+    {
+      "from": "meta",
+      "to": "skill-protocol",
+      "type": "soft_ref"
+    },
+    {
+      "from": "meta",
+      "to": "skill-updater",
+      "type": "soft_ref"
+    },
+    {
+      "from": "non-linear",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "obsidian",
+      "to": "learn",
+      "type": "soft_ref"
+    },
+    {
+      "from": "ontolog",
+      "to": "abduct",
+      "type": "soft_ref"
+    },
+    {
+      "from": "ontolog",
+      "to": "constraints",
+      "type": "soft_ref"
+    },
+    {
+      "from": "ontolog",
+      "to": "dspy",
+      "type": "soft_ref"
+    },
+    {
+      "from": "ontolog",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "ontolog",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "ontolog",
+      "to": "lambda",
+      "type": "soft_ref"
+    },
+    {
+      "from": "process-goals-prompting",
+      "to": "think",
+      "type": "soft_ref"
+    },
+    {
+      "from": "reason",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "rpp",
+      "to": "abduct",
+      "type": "soft_ref"
+    },
+    {
+      "from": "rpp",
+      "to": "constraints",
+      "type": "soft_ref"
+    },
+    {
+      "from": "rpp",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq",
+      "to": "constraints",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-rubric",
+      "to": "saq",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-rubric",
+      "to": "saq-rubric-metaschema",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-rubric",
+      "to": "saq-template-2",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-rubric-metaschema",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-rubric-metaschema",
+      "to": "saq-rubric",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-template-2",
+      "to": "saq",
+      "type": "soft_ref"
+    },
+    {
+      "from": "saq-template-2",
+      "to": "saq-rubric",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-composer",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-composer",
+      "to": "skill-optimiser",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "critique",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "skill-composer",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "skill-optimiser",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "skill-updater",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-orchestrator",
+      "to": "think",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "critique",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "non-linear",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "reason",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "skill-composer",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "skill-optimiser",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "skill-orchestrator",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-protocol",
+      "to": "think",
+      "type": "soft_ref"
+    },
+    {
+      "from": "skill-updater",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "telos",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "think",
+      "to": "non-linear",
+      "type": "soft_ref"
+    },
+    {
+      "from": "unifying-graph-analytics",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "urf",
+      "to": "graph",
+      "type": "soft_ref"
+    },
+    {
+      "from": "urf",
+      "to": "hierarchical-reasoning",
+      "type": "soft_ref"
+    },
+    {
+      "from": "urf",
+      "to": "lambda",
+      "type": "soft_ref"
+    },
+    {
+      "from": "urf",
+      "to": "non-linear",
+      "type": "soft_ref"
+    },
+    {
+      "from": "urf",
+      "to": "ontolog",
+      "type": "soft_ref"
+    },
+    {
+      "from": "urf",
+      "to": "reason",
+      "type": "soft_ref"
+    },
+    {
+      "from": "urf",
+      "to": "think",
+      "type": "soft_ref"
+    }
+  ]
+}

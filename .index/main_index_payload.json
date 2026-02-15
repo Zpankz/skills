@@ -1,0 +1,131 @@
+{
+  "aliases": {
+    "alias_to_canonical": {
+      "graph-reasoning (1)": "graph-reasoning",
+      "saq-template-2 (1)": "saq-template-2"
+    },
+    "canonical_to_aliases": {
+      "abduct": [],
+      "agency": [],
+      "cicm-saq-rubric": [],
+      "compound-learning": [],
+      "constraints": [],
+      "critique": [],
+      "dspy": [],
+      "eloquence": [],
+      "graph": [],
+      "graph-reasoning": [
+        "graph-reasoning (1)"
+      ],
+      "hierarchical-reasoning": [],
+      "lambda": [],
+      "learn": [],
+      "meta": [],
+      "non-linear": [],
+      "obsidian": [],
+      "ontolog": [],
+      "pex": [],
+      "process-goals-prompting": [],
+      "reason": [],
+      "rpp": [],
+      "saq": [],
+      "saq-rubric": [],
+      "saq-rubric-metaschema": [],
+      "saq-schema": [],
+      "saq-template-2": [
+        "saq-template-2 (1)"
+      ],
+      "skill-composer": [],
+      "skill-optimiser": [],
+      "skill-orchestrator": [],
+      "skill-protocol": [],
+      "skill-updater": [],
+      "system-skill": [],
+      "telos": [],
+      "think": [],
+      "unifying-graph-analytics": [],
+      "urf": []
+    }
+  },
+  "cluster_membership": {
+    "00_meta": [
+      "meta",
+      "skill-composer",
+      "skill-optimiser",
+      "skill-orchestrator",
+      "skill-protocol",
+      "skill-updater",
+      "system-skill"
+    ],
+    "10_reasoning_core": [
+      "constraints",
+      "graph-reasoning",
+      "graph",
+      "hierarchical-reasoning",
+      "ontolog",
+      "unifying-graph-analytics"
+    ],
+    "20_saq_medical": [
+      "cicm-saq-rubric",
+      "pex",
+      "saq-rubric-metaschema",
+      "saq-rubric",
+      "saq-schema",
+      "saq-template-2",
+      "saq",
+      "telos"
+    ],
+    "30_tools_and_aux": [
+      "abduct",
+      "agency",
+      "compound-learning",
+      "critique",
+      "dspy",
+      "eloquence",
+      "lambda",
+      "learn",
+      "non-linear",
+      "obsidian",
+      "process-goals-prompting",
+      "reason",
+      "rpp",
+      "think",
+      "urf"
+    ]
+  },
+  "cluster_order": [
+    "00_meta",
+    "10_reasoning_core",
+    "20_saq_medical",
+    "30_tools_and_aux"
+  ],
+  "generated_at": "2026-02-14T17:31:11.392869Z",
+  "metrics": {
+    "acyclic_ratio_hard_dag": 1.0,
+    "acyclic_ratio_raw": 0.4722,
+    "atomic_ratio": 0.4722222222222222,
+    "cycle_demotion_edges": 24,
+    "demoted_edges": 72,
+    "hard_edges": 131,
+    "hard_edges_dag": 59,
+    "max_depth": 8,
+    "mctsr": 100.0,
+    "mctsr_components": {
+      "alias_density": 0.055556,
+      "alias_health": 1.0,
+      "control_node_health": 1.0,
+      "control_relation_health": 1.0,
+      "dag_health": 1.0,
+      "edge_coverage": 1.0,
+      "schema_health": 1.0,
+      "unresolved_health": 1.0
+    },
+    "mctsr_passed": true,
+    "node_count": 36,
+    "soft_edges": 8,
+    "transitive_reduction_edges": 48
+  },
+  "node_count": 36,
+  "repo_root": "repo",
+  "root": "/Users/mikhail/Projects/Context-Engineering/Skills"
+}

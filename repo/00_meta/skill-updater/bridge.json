@@ -1,0 +1,35 @@
+{
+  "called_by": [
+    "compound-learning",
+    "meta",
+    "skill-orchestrator",
+    "skill-protocol"
+  ],
+  "canonical_path": "repo/00_meta/skill-updater.skill",
+  "category": "00_meta",
+  "depends_on": [
+    "critique",
+    "graph",
+    "skill-optimiser"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "skill-updater/scripts/evaluate_conversation.py",
+    "skill-updater/scripts/generate_diff.py"
+  ],
+  "hard_deps": [
+    "critique",
+    "skill-optimiser"
+  ],
+  "id": "skill-updater",
+  "outputs": [],
+  "quality": {
+    "script_count": 2,
+    "tokens": 222,
+    "word_count": 591
+  },
+  "soft_refs": [
+    "graph"
+  ],
+  "version": "0.1.0"
+}

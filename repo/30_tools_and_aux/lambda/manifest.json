@@ -1,0 +1,31 @@
+{
+  "id": "lambda",
+  "name": "lambda",
+  "category": "skill",
+  "triggers": [
+    "trigger: \"resolution detected\"",
+    "| Mode | Trigger | Constraints |"
+  ],
+  "capabilities": [],
+  "hard_deps": [
+    "constraints",
+    "critique",
+    "graph",
+    "hierarchical-reasoning",
+    "reason",
+    "saq",
+    "think"
+  ],
+  "soft_refs": [
+    "urf"
+  ],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 626,
+    "hard_degree": 7,
+    "soft_degree": 1,
+    "cluster": "30_tools_and_aux"
+  }
+}

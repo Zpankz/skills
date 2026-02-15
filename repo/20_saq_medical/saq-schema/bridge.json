@@ -1,0 +1,24 @@
+{
+  "called_by": [],
+  "canonical_path": "repo/20_saq_medical/saq-schema.skill",
+  "category": "20_saq_medical",
+  "depends_on": [
+    "saq"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "saq-schema/scripts/validation.py"
+  ],
+  "hard_deps": [
+    "saq"
+  ],
+  "id": "saq-schema",
+  "outputs": [],
+  "quality": {
+    "script_count": 1,
+    "tokens": 241,
+    "word_count": 746
+  },
+  "soft_refs": [],
+  "version": "0.1.0"
+}

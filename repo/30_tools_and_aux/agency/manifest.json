@@ -1,0 +1,22 @@
+{
+  "id": "agency",
+  "name": "agency",
+  "category": "skill",
+  "triggers": [],
+  "capabilities": [],
+  "hard_deps": [
+    "hierarchical-reasoning",
+    "reason",
+    "rpp"
+  ],
+  "soft_refs": [],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 604,
+    "hard_degree": 3,
+    "soft_degree": 0,
+    "cluster": "30_tools_and_aux"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "skill-updater",
+  "name": "skill-updater",
+  "category": "skill",
+  "triggers": [
+    "Triggers automatically after completing tasks that use skills, evaluates skill",
+    "## Automatic Trigger Conditions",
+    "TRIGGER_CONDITIONS = {",
+    "L2: REFACTOR   complexity \u2208[4,8) \u2192 Trigger skill-optimiser",
+    "# Trigger skill-optimiser",
+    "trigger=\"skill-optimiser\",",
+    "trigger=\"critique\",",
+    "| Skill | Integration | When Triggered |",
+    "### Explicit Audit (Manual Trigger)",
+    "[UPDATE:L2|api-client|REFACTOR|optimiser_triggered|\u03b7=4.2|\u2713]"
+  ],
+  "capabilities": [
+    "Change",
+    "ChangeType",
+    "ConversationEvaluation",
+    "DiffProposal",
+    "OutcomeType",
+    "Signal",
+    "SignalType",
+    "apply_changes",
+    "create_proposal",
+    "evaluate",
+    "extract_context",
+    "extract_signals",
+    "format_proposal",
+    "generate_clarification_change",
+    "generate_cross_reference_change",
+    "generate_description_fix",
+    "generate_example_change",
+    "generate_recommendations",
+    "generate_reference_change",
+    "generate_unified_diff",
+    "load_skill",
+    "main",
+    "parse_sections",
+    "process_issues"
+  ],
+  "hard_deps": [
+    "critique",
+    "graph",
+    "skill-optimiser"
+  ],
+  "soft_refs": [],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 591,
+    "hard_degree": 3,
+    "soft_degree": 0,
+    "cluster": "00_meta"
+  }
+}

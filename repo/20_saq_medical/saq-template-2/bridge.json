@@ -1,0 +1,36 @@
+{
+  "called_by": [
+    "saq-rubric"
+  ],
+  "canonical_path": "repo/20_saq_medical/saq-template-2.skill",
+  "category": "20_saq_medical",
+  "depends_on": [
+    "critique",
+    "pex",
+    "saq",
+    "saq-rubric"
+  ],
+  "deprecated_aliases": [
+    "saq-template-2 (1)"
+  ],
+  "entry_points": [
+    "saq-template-2/scripts/example.py",
+    "saq-template-2/scripts/validate_saq.py"
+  ],
+  "hard_deps": [
+    "critique",
+    "pex"
+  ],
+  "id": "saq-template-2",
+  "outputs": [],
+  "quality": {
+    "script_count": 2,
+    "tokens": 195,
+    "word_count": 482
+  },
+  "soft_refs": [
+    "saq",
+    "saq-rubric"
+  ],
+  "version": "0.1.0"
+}

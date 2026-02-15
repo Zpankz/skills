@@ -1,0 +1,587 @@
+aliases:
+  alias_to_canonical:
+    graph-reasoning (1): "graph-reasoning"
+    saq-template-2 (1): "saq-template-2"
+  canonical_to_aliases:
+    abduct:
+    agency:
+    cicm-saq-rubric:
+    compound-learning:
+    constraints:
+    critique:
+    dspy:
+    eloquence:
+    graph:
+    graph-reasoning:
+      - "graph-reasoning (1)"
+    hierarchical-reasoning:
+    lambda:
+    learn:
+    meta:
+    non-linear:
+    obsidian:
+    ontolog:
+    pex:
+    process-goals-prompting:
+    reason:
+    rpp:
+    saq:
+    saq-rubric:
+    saq-rubric-metaschema:
+    saq-schema:
+    saq-template-2:
+      - "saq-template-2 (1)"
+    skill-composer:
+    skill-optimiser:
+    skill-orchestrator:
+    skill-protocol:
+    skill-updater:
+    system-skill:
+    telos:
+    think:
+    unifying-graph-analytics:
+    urf:
+canonical:
+  abduct:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "graph"
+      - "non-linear"
+      - "obsidian"
+    outputs:
+    path: "repo/30_tools_and_aux/abduct.skill"
+    quality:
+      hard_degree: 3
+      soft_degree: 0
+      word_count: 586
+    soft_refs:
+  agency:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "hierarchical-reasoning"
+      - "rpp"
+    outputs:
+    path: "repo/30_tools_and_aux/agency.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 1
+      word_count: 604
+    soft_refs:
+      - "reason"
+  cicm-saq-rubric:
+    aliases:
+    cluster: "20_saq_medical"
+    hard_deps:
+      - "lambda"
+      - "saq-rubric"
+      - "saq-rubric-metaschema"
+    outputs:
+    path: "repo/20_saq_medical/cicm-saq-rubric.skill"
+    quality:
+      hard_degree: 3
+      soft_degree: 2
+      word_count: 444
+    soft_refs:
+      - "reason"
+      - "saq"
+  compound-learning:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "constraints"
+      - "learn"
+      - "skill-updater"
+    outputs:
+    path: "repo/30_tools_and_aux/compound-learning.skill"
+    quality:
+      hard_degree: 3
+      soft_degree: 5
+      word_count: 708
+    soft_refs:
+      - "critique"
+      - "graph"
+      - "hierarchical-reasoning"
+      - "reason"
+      - "think"
+  constraints:
+    aliases:
+    cluster: "10_reasoning_core"
+    hard_deps:
+      - "graph"
+      - "ontolog"
+    outputs:
+    path: "repo/10_reasoning_core/constraints.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 2
+      word_count: 596
+    soft_refs:
+      - "agency"
+      - "reason"
+  critique:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "graph"
+      - "non-linear"
+    outputs:
+    path: "repo/30_tools_and_aux/critique.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 3
+      word_count: 658
+    soft_refs:
+      - "constraints"
+      - "hierarchical-reasoning"
+      - "think"
+  dspy:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "graph"
+    outputs:
+    path: "repo/30_tools_and_aux/dspy.skill"
+    quality:
+      hard_degree: 1
+      soft_degree: 0
+      word_count: 590
+    soft_refs:
+  eloquence:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "abduct"
+      - "ontolog"
+    outputs:
+    path: "repo/30_tools_and_aux/eloquence.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 1
+      word_count: 681
+    soft_refs:
+      - "graph"
+  graph:
+    aliases:
+    cluster: "10_reasoning_core"
+    hard_deps:
+      - "hierarchical-reasoning"
+    outputs:
+    path: "repo/10_reasoning_core/graph.skill"
+    quality:
+      hard_degree: 1
+      soft_degree: 0
+      word_count: 674
+    soft_refs:
+  graph-reasoning:
+    aliases:
+      - "graph-reasoning (1)"
+    cluster: "10_reasoning_core"
+    hard_deps:
+      - "abduct"
+      - "skill-composer"
+    outputs:
+    path: "repo/10_reasoning_core/graph-reasoning.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 8
+      word_count: 458
+    soft_refs:
+      - "constraints"
+      - "critique"
+      - "graph"
+      - "hierarchical-reasoning"
+      - "non-linear"
+      - "ontolog"
+      - "reason"
+      - "think"
+  hierarchical-reasoning:
+    aliases:
+    cluster: "10_reasoning_core"
+    hard_deps:
+      - "reason"
+    outputs:
+    path: "repo/10_reasoning_core/hierarchical-reasoning.skill"
+    quality:
+      hard_degree: 1
+      soft_degree: 1
+      word_count: 530
+    soft_refs:
+      - "constraints"
+  lambda:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "reason"
+      - "saq"
+      - "think"
+    outputs:
+    path: "repo/30_tools_and_aux/lambda.skill"
+    quality:
+      hard_degree: 3
+      soft_degree: 5
+      word_count: 626
+    soft_refs:
+      - "constraints"
+      - "critique"
+      - "graph"
+      - "hierarchical-reasoning"
+      - "urf"
+  learn:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "think"
+    outputs:
+    path: "repo/30_tools_and_aux/learn.skill"
+    quality:
+      hard_degree: 1
+      soft_degree: 0
+      word_count: 288
+    soft_refs:
+  meta:
+    aliases:
+    cluster: "00_meta"
+    hard_deps:
+      - "skill-orchestrator"
+      - "system-skill"
+    outputs:
+      - ".index/main_index.yaml"
+      - ".index/main_index_payload.json"
+      - ".index/quality_report.md"
+      - ".index/processing_report.md"
+    path: "repo/00_meta/meta.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 2
+      word_count: 214
+    soft_refs:
+      - "skill-protocol"
+      - "skill-updater"
+  non-linear:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "reason"
+      - "think"
+    outputs:
+    path: "repo/30_tools_and_aux/non-linear.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 1
+      word_count: 599
+    soft_refs:
+      - "graph"
+  obsidian:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+    outputs:
+    path: "repo/30_tools_and_aux/obsidian.skill"
+    quality:
+      hard_degree: 0
+      soft_degree: 1
+      word_count: 533
+    soft_refs:
+      - "learn"
+  ontolog:
+    aliases:
+    cluster: "10_reasoning_core"
+    hard_deps:
+      - "reason"
+    outputs:
+    path: "repo/10_reasoning_core/ontolog.skill"
+    quality:
+      hard_degree: 1
+      soft_degree: 6
+      word_count: 494
+    soft_refs:
+      - "abduct"
+      - "constraints"
+      - "dspy"
+      - "graph"
+      - "hierarchical-reasoning"
+      - "lambda"
+  pex:
+    aliases:
+    cluster: "20_saq_medical"
+    hard_deps:
+      - "hierarchical-reasoning"
+      - "saq"
+    outputs:
+    path: "repo/20_saq_medical/pex.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 0
+      word_count: 605
+    soft_refs:
+  process-goals-prompting:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "constraints"
+      - "critique"
+      - "dspy"
+    outputs:
+    path: "repo/30_tools_and_aux/process-goals-prompting.skill"
+    quality:
+      hard_degree: 3
+      soft_degree: 1
+      word_count: 558
+    soft_refs:
+      - "think"
+  reason:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+    outputs:
+    path: "repo/30_tools_and_aux/reason.skill"
+    quality:
+      hard_degree: 0
+      soft_degree: 1
+      word_count: 567
+    soft_refs:
+      - "graph"
+  rpp:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+    outputs:
+    path: "repo/30_tools_and_aux/rpp.skill"
+    quality:
+      hard_degree: 0
+      soft_degree: 3
+      word_count: 577
+    soft_refs:
+      - "abduct"
+      - "constraints"
+      - "graph"
+  saq:
+    aliases:
+    cluster: "20_saq_medical"
+    hard_deps:
+    outputs:
+    path: "repo/20_saq_medical/saq.skill"
+    quality:
+      hard_degree: 0
+      soft_degree: 1
+      word_count: 727
+    soft_refs:
+      - "constraints"
+  saq-rubric:
+    aliases:
+    cluster: "20_saq_medical"
+    hard_deps:
+      - "pex"
+    outputs:
+    path: "repo/20_saq_medical/saq-rubric.skill"
+    quality:
+      hard_degree: 1
+      soft_degree: 3
+      word_count: 571
+    soft_refs:
+      - "saq"
+      - "saq-rubric-metaschema"
+      - "saq-template-2"
+  saq-rubric-metaschema:
+    aliases:
+    cluster: "20_saq_medical"
+    hard_deps:
+      - "constraints"
+      - "saq"
+    outputs:
+    path: "repo/20_saq_medical/saq-rubric-metaschema.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 2
+      word_count: 648
+    soft_refs:
+      - "hierarchical-reasoning"
+      - "saq-rubric"
+  saq-schema:
+    aliases:
+    cluster: "20_saq_medical"
+    hard_deps:
+      - "saq"
+    outputs:
+    path: "repo/20_saq_medical/saq-schema.skill"
+    quality:
+      hard_degree: 1
+      soft_degree: 0
+      word_count: 746
+    soft_refs:
+  saq-template-2:
+    aliases:
+      - "saq-template-2 (1)"
+    cluster: "20_saq_medical"
+    hard_deps:
+      - "critique"
+      - "pex"
+    outputs:
+    path: "repo/20_saq_medical/saq-template-2.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 2
+      word_count: 482
+    soft_refs:
+      - "saq"
+      - "saq-rubric"
+  skill-composer:
+    aliases:
+    cluster: "00_meta"
+    hard_deps:
+      - "lambda"
+      - "skill-orchestrator"
+    outputs:
+    path: "repo/00_meta/skill-composer.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 2
+      word_count: 649
+    soft_refs:
+      - "graph"
+      - "skill-optimiser"
+  skill-optimiser:
+    aliases:
+    cluster: "00_meta"
+    hard_deps:
+    outputs:
+    path: "repo/00_meta/skill-optimiser.skill"
+    quality:
+      hard_degree: 0
+      soft_degree: 0
+      word_count: 492
+    soft_refs:
+  skill-orchestrator:
+    aliases:
+    cluster: "00_meta"
+    hard_deps:
+      - "agency"
+      - "constraints"
+      - "skill-protocol"
+    outputs:
+    path: "repo/00_meta/skill-orchestrator.skill"
+    quality:
+      hard_degree: 3
+      soft_degree: 7
+      word_count: 512
+    soft_refs:
+      - "critique"
+      - "graph"
+      - "hierarchical-reasoning"
+      - "skill-composer"
+      - "skill-optimiser"
+      - "skill-updater"
+      - "think"
+  skill-protocol:
+    aliases:
+    cluster: "00_meta"
+    hard_deps:
+      - "skill-updater"
+    outputs:
+    path: "repo/00_meta/skill-protocol.skill"
+    quality:
+      hard_degree: 1
+      soft_degree: 9
+      word_count: 530
+    soft_refs:
+      - "critique"
+      - "graph"
+      - "hierarchical-reasoning"
+      - "non-linear"
+      - "reason"
+      - "skill-composer"
+      - "skill-optimiser"
+      - "skill-orchestrator"
+      - "think"
+  skill-updater:
+    aliases:
+    cluster: "00_meta"
+    hard_deps:
+      - "critique"
+      - "skill-optimiser"
+    outputs:
+    path: "repo/00_meta/skill-updater.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 1
+      word_count: 591
+    soft_refs:
+      - "graph"
+  system-skill:
+    aliases:
+    cluster: "00_meta"
+    hard_deps:
+    outputs:
+    path: "repo/00_meta/system-skill.skill"
+    quality:
+      hard_degree: 0
+      soft_degree: 0
+      word_count: 580
+    soft_refs:
+  telos:
+    aliases:
+    cluster: "20_saq_medical"
+    hard_deps:
+      - "constraints"
+      - "saq"
+    outputs:
+    path: "repo/20_saq_medical/telos.skill"
+    quality:
+      hard_degree: 2
+      soft_degree: 1
+      word_count: 619
+    soft_refs:
+      - "hierarchical-reasoning"
+  think:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+    outputs:
+    path: "repo/30_tools_and_aux/think.skill"
+    quality:
+      hard_degree: 0
+      soft_degree: 1
+      word_count: 300
+    soft_refs:
+      - "non-linear"
+  unifying-graph-analytics:
+    aliases:
+    cluster: "10_reasoning_core"
+    hard_deps:
+      - "constraints"
+      - "lambda"
+      - "rpp"
+    outputs:
+    path: "repo/10_reasoning_core/unifying-graph-analytics.skill"
+    quality:
+      hard_degree: 3
+      soft_degree: 1
+      word_count: 523
+    soft_refs:
+      - "graph"
+  urf:
+    aliases:
+    cluster: "30_tools_and_aux"
+    hard_deps:
+      - "abduct"
+      - "agency"
+      - "constraints"
+      - "critique"
+    outputs:
+    path: "repo/30_tools_and_aux/urf.skill"
+    quality:
+      hard_degree: 4
+      soft_degree: 7
+      word_count: 655
+    soft_refs:
+      - "graph"
+      - "hierarchical-reasoning"
+      - "lambda"
+      - "non-linear"
+      - "ontolog"
+      - "reason"
+      - "think"
+generated_at: "2026-02-14T17:31:11.390764Z"
+version: 1

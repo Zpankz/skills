@@ -1,0 +1,23 @@
+{
+  "id": "process-goals-prompting",
+  "name": "process-goals-prompting",
+  "category": "skill",
+  "triggers": [],
+  "capabilities": [],
+  "hard_deps": [
+    "constraints",
+    "critique",
+    "dspy",
+    "think"
+  ],
+  "soft_refs": [],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 558,
+    "hard_degree": 4,
+    "soft_degree": 0,
+    "cluster": "30_tools_and_aux"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meta"
+  short_description: "Emit and validate deterministic skill corpus governance artifacts."
+  default_prompt: "Use the meta skill to emit and validate the .index artifact set into a reproducible control-plane snapshot."

@@ -1,0 +1,21 @@
+{
+  "id": "pex",
+  "name": "pex",
+  "category": "skill",
+  "triggers": [],
+  "capabilities": [],
+  "hard_deps": [
+    "hierarchical-reasoning",
+    "saq"
+  ],
+  "soft_refs": [],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 605,
+    "hard_degree": 2,
+    "soft_degree": 0,
+    "cluster": "20_saq_medical"
+  }
+}

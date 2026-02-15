@@ -1,0 +1,25 @@
+{
+  "called_by": [
+    "ontolog",
+    "process-goals-prompting"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/dspy.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "graph"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "graph"
+  ],
+  "id": "dspy",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 182,
+    "word_count": 590
+  },
+  "soft_refs": [],
+  "version": "0.1.0"
+}

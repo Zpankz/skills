@@ -1,0 +1,27 @@
+{
+  "called_by": [
+    "compound-learning",
+    "obsidian"
+  ],
+  "canonical_path": "repo/30_tools_and_aux/learn.skill",
+  "category": "30_tools_and_aux",
+  "depends_on": [
+    "think"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [
+    "learn/scripts/validate.py"
+  ],
+  "hard_deps": [
+    "think"
+  ],
+  "id": "learn",
+  "outputs": [],
+  "quality": {
+    "script_count": 1,
+    "tokens": 105,
+    "word_count": 288
+  },
+  "soft_refs": [],
+  "version": "0.1.0"
+}

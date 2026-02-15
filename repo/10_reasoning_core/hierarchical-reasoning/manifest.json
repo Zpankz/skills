@@ -1,0 +1,36 @@
+{
+  "id": "hierarchical-reasoning",
+  "name": "hierarchical-reasoning",
+  "category": "skill",
+  "triggers": [],
+  "capabilities": [
+    "HierarchicalReasoner",
+    "HierarchicalReasoningResult",
+    "ReasoningLevel",
+    "ReasoningState",
+    "__init__",
+    "__post_init__",
+    "_check_convergence",
+    "_compute_convergence",
+    "_operational_reasoning",
+    "_strategic_reasoning",
+    "_synthesize_result",
+    "_tactical_reasoning",
+    "main",
+    "reason"
+  ],
+  "hard_deps": [
+    "constraints",
+    "reason"
+  ],
+  "soft_refs": [],
+  "outputs": [],
+  "inputs": [],
+  "subgraph_type": "modular_block",
+  "quality": {
+    "word_count": 530,
+    "hard_degree": 2,
+    "soft_degree": 0,
+    "cluster": "10_reasoning_core"
+  }
+}

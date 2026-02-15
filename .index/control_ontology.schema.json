@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "clusters": {
+      "additionalProperties": {
+        "properties": {
+          "canonical_paths": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "members": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "size": {
+            "minimum": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "size",
+          "members",
+          "canonical_paths"
+        ],
+        "type": "object"
+      },
+      "type": "object"
+    },
+    "control_graph": {
+      "properties": {
+        "atomic_count": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "atomic_nodes": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "max_depth": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "node_count": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "relation_count": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "relation_kind_counts": {
+          "additionalProperties": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "type": "object"
+        }
+      },
+      "required": [
+        "max_depth",
+        "node_count",
+        "relation_count",
+        "atomic_count",
+        "atomic_nodes",
+        "relation_kind_counts"
+      ],
+      "type": "object"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "nodes": {
+      "items": {
+        "properties": {
+          "archive": {
+            "type": "string"
+          },
+          "cluster": {
+            "type": "string"
+          },
+          "cluster_ordinal": {
+            "type": "integer"
+          },
+          "control_score": {
+            "type": "number"
+          },
+          "control_state": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "is_atomic": {
+            "type": "boolean"
+          },
+          "quality": {
+            "properties": {
+              "hard_in_degree": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "hard_out_degree": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "soft_in_degree": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "soft_out_degree": {
+                "minimum": 0,
+                "type": "integer"
+              },
+              "word_count": {
+                "minimum": 0,
+                "type": "integer"
+              }
+            },
+            "type": "object"
+          },
+          "scc_id": {
+            "minimum": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id",
+          "cluster",
+          "cluster_ordinal",
+          "is_atomic",
+          "scc_id",
+          "control_score",
+          "control_state",
+          "archive",
+          "quality"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "relations": {
+      "items": {
+        "properties": {
+          "control_plane": {
+            "type": "boolean"
+          },
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "runtime_hard",
+              "runtime_soft",
+              "demotion",
+              "compat_alias"
+            ],
+            "type": "string"
+          },
+          "meta": {
+            "type": "object"
+          },
+          "policy": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "target": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "source",
+          "target",
+          "policy",
+          "control_plane",
+          "weight"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "topology": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "generated_at",
+    "topology",
+    "control_graph",
+    "clusters",
+    "nodes",
+    "relations"
+  ],
+  "title": "Skill Control Ontology",
+  "type": "object"
+}

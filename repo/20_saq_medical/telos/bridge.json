@@ -1,0 +1,27 @@
+{
+  "called_by": [],
+  "canonical_path": "repo/20_saq_medical/telos.skill",
+  "category": "20_saq_medical",
+  "depends_on": [
+    "constraints",
+    "hierarchical-reasoning",
+    "saq"
+  ],
+  "deprecated_aliases": [],
+  "entry_points": [],
+  "hard_deps": [
+    "constraints",
+    "saq"
+  ],
+  "id": "telos",
+  "outputs": [],
+  "quality": {
+    "script_count": 0,
+    "tokens": 239,
+    "word_count": 619
+  },
+  "soft_refs": [
+    "hierarchical-reasoning"
+  ],
+  "version": "0.1.0"
+}
